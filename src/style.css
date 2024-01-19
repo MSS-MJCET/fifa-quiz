@@ -57,3 +57,26 @@ body {
 	background-color: yellow;
 	color: yellow;
 }
+
+.player {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	user-select: none;
+	z-index: 100;
+	color: white;
+	font-family: sans-serif;
+}
+
+.player .label {
+	color: white;
+	font-weight: bold;
+}
+.football-square.drag-over {
+	border: 2px dashed #000; /* Add a dashed border to indicate the drag-over effect */
+}
