@@ -5,6 +5,7 @@
 }
 body {
 	height: 100vh;
+	flex-direction: column;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -35,6 +36,9 @@ body {
 	top: 5px;
 	left: 5px;
 	font-weight: bold;
+}
+.label::selection {
+	background-color: transparent;
 }
 
 .even {
@@ -79,4 +83,23 @@ body {
 }
 .football-square.drag-over {
 	border: 2px dashed #000; /* Add a dashed border to indicate the drag-over effect */
+}
+
+.ball {
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	background-color: white;
+	position: absolute;
+	z-index: 3;
+}
+.ball-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.adjacent-highlight {
+	background-color: rgba(255, 0, 0, 0.881);
+	color: black;
 }

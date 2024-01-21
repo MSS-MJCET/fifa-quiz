@@ -82,12 +82,58 @@ class FootballBoard {
 		// Add dragstart event listener
 		player.addEventListener('dragstart', (event) => {
 			player.classList.add('dragging');
+			this.highlightAdjacentSquares(row, col);
 			event.dataTransfer.setData('text/plain', ''); // Set data to enable drag
 		});
 
 		// Add dragend event listener
 		player.addEventListener('dragend', () => {
 			player.classList.remove('dragging');
+			this.removeHighlightAdjacentSquares(row, col);
+		});
+	}
+
+	highlightAdjacentSquares(row, col) {
+		// Get the indices of adjacent squares
+		const indices = [
+			{ row: row - 1, col },
+			{ row: row - 1, col: col - 1 },
+			{ row: row - 1, col: col + 1 },
+			{ row: row + 1, col },
+			{ row: row + 1, col: col - 1 },
+			{ row: row + 1, col: col + 1 },
+			{ row, col: col - 1 },
+			{ row, col: col + 1 },
+		];
+
+		// Highlight each adjacent square
+		indices.forEach((index) => {
+			if (index.row >= 0 && index.row < 10 && index.col >= 0 && index.col < 18) {
+				const square = this.board.children[index.row * 18 + index.col];
+				square.classList.add('adjacent-highlight');
+			}
+		});
+	}
+
+	removeHighlightAdjacentSquares(row, col) {
+		// Get the indices of adjacent squares
+		const indices = [
+			{ row: row - 1, col },
+			{ row: row - 1, col: col - 1 },
+			{ row: row - 1, col: col + 1 },
+			{ row: row + 1, col },
+			{ row: row + 1, col: col - 1 },
+			{ row: row + 1, col: col + 1 },
+			{ row, col: col - 1 },
+			{ row, col: col + 1 },
+		];
+
+		// Remove highlight from each adjacent square
+		indices.forEach((index) => {
+			if (index.row >= 0 && index.row < 10 && index.col >= 0 && index.col < 18) {
+				const square = this.board.children[index.row * 18 + index.col];
+				square.classList.remove('adjacent-highlight');
+			}
 		});
 	}
 }
@@ -119,5 +165,21 @@ footballBoard.container.addEventListener('drop', (event) => {
 		const player = document.querySelector('.dragging');
 		targetSquare.appendChild(player);
 		targetSquare.classList.remove('drag-over');
+	}
+});
+
+const ballButton = document.getElementById('ball-btn');
+
+ballButton.addEventListener('click', (e) => {
+	const container = footballBoard.container;
+	const ball = document.getElementById('football');
+
+	if (!container.contains(ball)) {
+		const createBall = document.createElement('div');
+		createBall.classList.add('ball');
+		createBall.id = 'football';
+
+		container.classList.add('ball-center');
+		container.appendChild(createBall);
 	}
 });
