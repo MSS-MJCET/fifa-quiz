@@ -1,10 +1,54 @@
+class PlayerEntity {
+	constructor(id, team, row, col, tag) {
+		this.id = id;
+		this.row = row;
+		this.col = col;
+		this.team = team;
+		this.tag = tag;
+		this.coordinates = [];
+		this.player = this.createPlayer();
+	}
+
+	createPlayer() {
+		const player = document.createElement('div');
+		player.textContent = this.tag;
+		player.classList.add('player');
+		player.classList.add(this.team);
+
+		player.style.backgroundColor = this.team;
+		player.draggable = true;
+
+		const label = document.createElement('div');
+		label.classList.add('label');
+		label.textContent = this.team.charAt(0).toUpperCase();
+
+		player.dataset.id = this.id;
+
+		player.appendChild(label);
+
+		player.addEventListener('dragstart', (e) => {
+			player.classList.add('dragging');
+			e.dataTransfer.setData('text/plain', ''); // proper initialization of drag and drop operation
+		});
+
+		player.addEventListener('dragend', () => {
+			player.classList.remove('dragging');
+		});
+		return player;
+	}
+
+	setCords() {
+		return this.coordinates.push({ row: this.row, col: this.col });
+	}
+}
+
 class FootballBoard {
 	constructor(containerId) {
 		this.container = document.getElementById(containerId);
 		this.board = this.createBoard();
-		this.addPlayers();
-		// Add this line to the constructor
+		this.players = [];
 	}
+
 	createBoard() {
 		const board = document.createElement('div');
 		board.id = 'footballBoard';
@@ -13,6 +57,11 @@ class FootballBoard {
 		for (let row = 0; row < 10; row++) {
 			for (let col = 0; col < 18; col++) {
 				const square = document.createElement('div');
+
+				// assign coordinates to each squares
+				square.dataset.cordX = row;
+				square.dataset.cordY = col;
+
 				square.classList.add('football-square');
 
 				if (col === 0) {
@@ -44,53 +93,12 @@ class FootballBoard {
 		return board;
 	}
 
-	addPlayers() {
-		// Adding 4 blue players
-		this.addPlayer('blue', 5, 1, 'G'); // goalie
-		this.addPlayer('blue', 4, 7, 'A');
-		this.addPlayer('blue', 2, 5, 'B');
-		this.addPlayer('blue', 7, 5, 'C');
-
-		// Adding 4 red players
-		this.addPlayer('red', 4, 16, 'G'); //goalie
-		this.addPlayer('red', 2, 12, 'F');
-		this.addPlayer('red', 7, 12, 'E');
-		this.addPlayer('red', 5, 10, 'D');
-	}
-
-	addPlayer(team, row, col, tag) {
-		const player = document.createElement('div');
-		player.textContent = tag;
-		player.classList.add('player');
-		player.classList.add(team);
-
-		// Set the background color based on the team
-		player.style.backgroundColor = team;
-
-		const label = document.createElement('div');
-		label.classList.add('label');
-		label.textContent = team.charAt(0).toUpperCase();
-
-		player.appendChild(label);
-
+	addPlayer(player_object) {
+		const { row, col, player } = player_object;
 		const square = this.board.children[row * 18 + col];
 		square.appendChild(player);
 
-		// Make the player draggable
-		player.draggable = true;
-
-		// Add dragstart event listener
-		player.addEventListener('dragstart', (event) => {
-			player.classList.add('dragging');
-			this.highlightAdjacentSquares(row, col);
-			event.dataTransfer.setData('text/plain', ''); // Set data to enable drag
-		});
-
-		// Add dragend event listener
-		player.addEventListener('dragend', () => {
-			player.classList.remove('dragging');
-			this.removeHighlightAdjacentSquares(row, col);
-		});
+		this.players.push(player_object);
 	}
 
 	highlightAdjacentSquares(row, col) {
@@ -108,7 +116,7 @@ class FootballBoard {
 
 		// Highlight each adjacent square
 		indices.forEach((index) => {
-			if (index.row >= 0 && index.row < 10 && index.col >= 0 && index.col < 18) {
+			if (index.row >= 0 && index.row < 10 && index.col > 0 && index.col < 17) {
 				const square = this.board.children[index.row * 18 + index.col];
 				square.classList.add('adjacent-highlight');
 			}
@@ -138,18 +146,50 @@ class FootballBoard {
 	}
 }
 
+const goalie_1 = new PlayerEntity(1, 'blue', 5, 1, 'G');
+const player_1 = new PlayerEntity(2, 'blue', 4, 7, 'A');
+const player_2 = new PlayerEntity(3, 'blue', 2, 5, 'B');
+const player_3 = new PlayerEntity(4, 'blue', 7, 5, 'C');
+
+const goalie_2 = new PlayerEntity(5, 'red', 4, 16, 'G');
+const player_4 = new PlayerEntity(6, 'red', 2, 12, 'F');
+const player_5 = new PlayerEntity(7, 'red', 7, 12, 'E');
+const player_6 = new PlayerEntity(8, 'red', 5, 10, 'D');
+
+const playersCollection = [goalie_1, player_1, player_2, player_3, goalie_2, player_4, player_5, player_6];
+
 const footballBoard = new FootballBoard('footballBoardContainer');
-// Add dragover event listener to allow dropping
+playersCollection.forEach((entity) => {
+	entity.setCords();
+	footballBoard.addPlayer(entity);
+});
+
+console.log(footballBoard.players);
+
+let targetTile = undefined;
+footballBoard.container.addEventListener('dragstart', (e) => {
+	const player = document.querySelector('.dragging');
+	const playerObj = playersCollection.find((entity) => entity.id == player.dataset.id);
+
+	targetTile = playerObj.coordinates.pop();
+	console.log(targetTile);
+
+	footballBoard.highlightAdjacentSquares(playerObj.row, playerObj.col);
+});
+
+footballBoard.container.addEventListener('dragend', () => {
+	footballBoard.removeHighlightAdjacentSquares(targetTile.row, targetTile.col);
+	targetTile = undefined;
+});
+
 footballBoard.container.addEventListener('dragover', (event) => {
 	event.preventDefault();
 	const targetSquare = event.target.closest('.football-square');
 	if (targetSquare) {
-		// Highlight the target square when a player is dragged over
 		targetSquare.classList.add('drag-over');
 	}
 });
 
-// Add dragleave event listener to remove highlight
 footballBoard.container.addEventListener('dragleave', (event) => {
 	const targetSquare = event.target.closest('.football-square');
 	if (targetSquare) {
@@ -157,12 +197,22 @@ footballBoard.container.addEventListener('dragleave', (event) => {
 	}
 });
 
-// Add drop event listener to handle dropping
 footballBoard.container.addEventListener('drop', (event) => {
 	event.preventDefault();
 	const targetSquare = event.target.closest('.football-square');
 	if (targetSquare) {
+		// update coordinated of the dragged player
 		const player = document.querySelector('.dragging');
+		const playerObj = playersCollection.find((entity) => entity.id == player.dataset.id);
+
+		if (playerObj) {
+			playerObj.row = parseInt(targetSquare.dataset.cordX);
+			playerObj.col = parseInt(targetSquare.dataset.cordY);
+			playerObj.setCords();
+		}
+
+		console.log(playerObj);
+
 		targetSquare.appendChild(player);
 		targetSquare.classList.remove('drag-over');
 	}

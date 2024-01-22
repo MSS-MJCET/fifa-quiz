@@ -36,6 +36,8 @@ body {
 	top: 5px;
 	left: 5px;
 	font-weight: bold;
+	pointer-events: none;
+	transition: 0.2s ease-out;
 }
 .label::selection {
 	background-color: transparent;
@@ -100,6 +102,21 @@ body {
 }
 
 .adjacent-highlight {
-	background-color: rgba(255, 0, 0, 0.881);
 	color: black;
+}
+
+.adjacent-highlight::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(255, 0, 0, 0.5);
+	pointer-events: none;
+}
+
+.adjacent-highlight .label {
+	font-size: 15px;
+	transition: 0.2s ease-in;
 }
