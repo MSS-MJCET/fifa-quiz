@@ -166,20 +166,20 @@ playersCollection.forEach((entity) => {
 
 console.log(footballBoard.players);
 
-let targetTile = undefined;
+let currentTile = undefined;
 footballBoard.container.addEventListener('dragstart', (e) => {
 	const player = document.querySelector('.dragging');
 	const playerObj = playersCollection.find((entity) => entity.id == player.dataset.id);
 
-	targetTile = playerObj.coordinates.pop();
-	console.log(targetTile);
+	currentTile = playerObj.coordinates[playerObj.coordinates.length - 1];
+	console.log(currentTile);
 
 	footballBoard.highlightAdjacentSquares(playerObj.row, playerObj.col);
 });
 
 footballBoard.container.addEventListener('dragend', () => {
-	footballBoard.removeHighlightAdjacentSquares(targetTile.row, targetTile.col);
-	targetTile = undefined;
+	footballBoard.removeHighlightAdjacentSquares(currentTile.row, currentTile.col);
+	currentTile = undefined;
 });
 
 footballBoard.container.addEventListener('dragover', (event) => {
@@ -197,25 +197,45 @@ footballBoard.container.addEventListener('dragleave', (event) => {
 	}
 });
 
+function possibleTiles(cords) {
+	return [
+		{ row: cords.row - 1, col: cords.col },
+		{ row: cords.row - 1, col: cords.col - 1 },
+		{ row: cords.row - 1, col: cords.col + 1 },
+		{ row: cords.row + 1, col: cords.col },
+		{ row: cords.row + 1, col: cords.col - 1 },
+		{ row: cords.row + 1, col: cords.col + 1 },
+		{ row: cords.row, col: cords.col - 1 },
+		{ row: cords.row, col: cords.col + 1 },
+	];
+}
+
 footballBoard.container.addEventListener('drop', (event) => {
 	event.preventDefault();
 	const targetSquare = event.target.closest('.football-square');
-	if (targetSquare) {
+	const possibleTilesArray = possibleTiles(currentTile);
+	const targetSquareCords = { row: parseInt(targetSquare.dataset.cordX), col: parseInt(targetSquare.dataset.cordY) };
+	const acceptableTile = possibleTilesArray.find((tile) => {
+		if (targetSquareCords.row == tile.row && targetSquareCords.col == tile.col) {
+			return tile;
+		}
+	});
+	if (acceptableTile && targetSquare.children.length === 1) {
 		// update coordinated of the dragged player
 		const player = document.querySelector('.dragging');
 		const playerObj = playersCollection.find((entity) => entity.id == player.dataset.id);
 
 		if (playerObj) {
-			playerObj.row = parseInt(targetSquare.dataset.cordX);
-			playerObj.col = parseInt(targetSquare.dataset.cordY);
+			playerObj.row = targetSquareCords.row;
+			playerObj.col = targetSquareCords.col;
 			playerObj.setCords();
 		}
 
 		console.log(playerObj);
 
 		targetSquare.appendChild(player);
-		targetSquare.classList.remove('drag-over');
 	}
+	targetSquare.classList.remove('drag-over');
 });
 
 const ballButton = document.getElementById('ball-btn');
