@@ -257,6 +257,7 @@ playersCollection.forEach((entity) => {
 			if (prevHolder) {
 				footballBoard.removeHighlightAdjacentSquares(prevHolder.row, prevHolder.col, ballStatus);
 				prevHolder.player.classList.remove('has-ball', 'b-team');
+				prevHolder.ballStatus = false;
 				prevHolder.player.dataset.hasBall = '';
 			}
 			currentHolder.push(entity);
