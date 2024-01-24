@@ -6,6 +6,7 @@ class PlayerEntity {
 		this.team = team;
 		this.tag = tag;
 		this.coordinates = [];
+		this.ballStatus = false;
 		this.player = this.createPlayer();
 	}
 
@@ -62,6 +63,8 @@ class FootballBoard {
 				square.dataset.cordX = row;
 				square.dataset.cordY = col;
 
+				square.draggable = false;
+
 				square.classList.add('football-square');
 
 				if (col === 0) {
@@ -101,7 +104,7 @@ class FootballBoard {
 		this.players.push(player_object);
 	}
 
-	highlightAdjacentSquares(row, col) {
+	highlightAdjacentSquares(row, col, status = false) {
 		// Get the indices of adjacent squares
 		const indices = [
 			{ row: row - 1, col },
@@ -118,12 +121,13 @@ class FootballBoard {
 		indices.forEach((index) => {
 			if (index.row >= 0 && index.row < 10 && index.col > 0 && index.col < 17) {
 				const square = this.board.children[index.row * 18 + index.col];
-				square.classList.add('adjacent-highlight');
+				if (status) square.classList.add('player-field');
+				else square.classList.add('adjacent-highlight');
 			}
 		});
 	}
 
-	removeHighlightAdjacentSquares(row, col) {
+	removeHighlightAdjacentSquares(row, col, status = false) {
 		// Get the indices of adjacent squares
 		const indices = [
 			{ row: row - 1, col },
@@ -140,7 +144,8 @@ class FootballBoard {
 		indices.forEach((index) => {
 			if (index.row >= 0 && index.row < 10 && index.col >= 0 && index.col < 18) {
 				const square = this.board.children[index.row * 18 + index.col];
-				square.classList.remove('adjacent-highlight');
+				if (status) square.classList.remove('player-field');
+				else square.classList.remove('adjacent-highlight');
 			}
 		});
 	}
@@ -174,11 +179,17 @@ footballBoard.container.addEventListener('dragstart', (e) => {
 	currentTile = playerObj.coordinates[playerObj.coordinates.length - 1];
 	console.log(currentTile);
 
-	footballBoard.highlightAdjacentSquares(playerObj.row, playerObj.col);
+	footballBoard.highlightAdjacentSquares(playerObj.row, playerObj.col, playerObj.ballStatus);
 });
 
-footballBoard.container.addEventListener('dragend', () => {
-	footballBoard.removeHighlightAdjacentSquares(currentTile.row, currentTile.col);
+footballBoard.container.addEventListener('dragend', (e) => {
+	if (e.target.dataset.hasBall == 'true') {
+		const playerObj = playersCollection.find((entity) => entity.id == e.target.dataset.id);
+		footballBoard.removeHighlightAdjacentSquares(currentTile.row, currentTile.col, true);
+		footballBoard.highlightAdjacentSquares(playerObj.row, playerObj.col, true);
+	} else {
+		footballBoard.removeHighlightAdjacentSquares(currentTile.row, currentTile.col, false);
+	}
 	currentTile = undefined;
 });
 
@@ -238,8 +249,34 @@ footballBoard.container.addEventListener('drop', (event) => {
 	targetSquare.classList.remove('drag-over');
 });
 
-const ballButton = document.getElementById('ball-btn');
+playersCollection.forEach((entity) => {
+	entity.player.addEventListener('click', (e) => {
+		const ball = document.getElementById('football');
+		if (ballStatus) {
+			const prevHolder = currentHolder.length ? currentHolder.pop() : false;
+			if (prevHolder) {
+				footballBoard.removeHighlightAdjacentSquares(prevHolder.row, prevHolder.col, ballStatus);
+				prevHolder.player.classList.remove('has-ball', 'b-team');
+				prevHolder.player.dataset.hasBall = '';
+			}
+			currentHolder.push(entity);
 
+			entity.ballStatus = ballStatus;
+			e.target.dataset.hasBall = true;
+			e.target.appendChild(ball);
+
+			e.target.classList.add('has-ball');
+			if (e.target.dataset.id <= 4) e.target.classList.add('b-team');
+
+			footballBoard.highlightAdjacentSquares(entity.row, entity.col, entity.ballStatus);
+			ballStatus = false;
+		}
+	});
+});
+
+const ballButton = document.getElementById('ball-btn');
+let ballStatus = false;
+const currentHolder = [];
 ballButton.addEventListener('click', (e) => {
 	const container = footballBoard.container;
 	const ball = document.getElementById('football');
@@ -251,5 +288,11 @@ ballButton.addEventListener('click', (e) => {
 
 		container.classList.add('ball-center');
 		container.appendChild(createBall);
+	}
+
+	ballButton.textContent = 'set status';
+
+	if (!ballStatus) {
+		ballStatus = true;
 	}
 });

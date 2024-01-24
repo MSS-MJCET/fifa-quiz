@@ -28,6 +28,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	user-select: none;
 }
 
 .label {
@@ -101,10 +102,12 @@ body {
 	justify-content: center;
 }
 
+.player-field,
 .adjacent-highlight {
 	color: black;
 }
 
+.player-field::before,
 .adjacent-highlight::before {
 	content: '';
 	position: absolute;
@@ -116,7 +119,26 @@ body {
 	pointer-events: none;
 }
 
+.player-field::before {
+	background-color: rgba(255, 0, 0, 0.689) !important;
+}
+
+.player-field > .label,
 .adjacent-highlight .label {
 	font-size: 15px;
 	transition: 0.2s ease-in;
+}
+
+.has-ball {
+	position: relative;
+}
+
+.has-ball > .ball {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.b-team > .ball {
+	left: 65%;
 }
