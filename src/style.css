@@ -4,6 +4,12 @@
 	box-sizing: border-box;
 }
 body {
+	background: url('https://w0.peakpx.com/wallpaper/845/526/HD-wallpaper-soccer-stadium-top-view-8k-stadium-soccer-football-sports-graphy-aerial.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+
 	height: 100vh;
 	flex-direction: column;
 	display: flex;
@@ -55,8 +61,8 @@ body {
 }
 
 .white {
-	background-color: white;
-	color: white;
+	background-color: rgba(255, 255, 255, 0.129);
+	color: rgba(255, 255, 255, 0.125);
 }
 
 .right-column,
@@ -128,6 +134,48 @@ body {
 	font-size: 15px;
 	transition: 0.2s ease-in;
 }
+
+
+
+.second-third-radius::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	pointer-events: none;
+
+    background-color: rgba(17, 53, 17, 0.386) !important; /* Adjust the RGBA values for the desired shade */
+}
+
+.goalie-area{
+	color: rgb(20, 20, 20);
+    background-color: #05970a !important;
+}
+
+
+/* Button Styles */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4f36a2; /* Green */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #21aeb6; /* Darker Green */
+}
+
+
+
 
 .has-ball {
 	position: relative;
