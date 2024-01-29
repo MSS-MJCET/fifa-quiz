@@ -81,6 +81,19 @@ class FootballBoard {
 					}
 				} else {
 					square.classList.add((row + col) % 2 === 0 ? 'even' : 'odd');
+					
+					if(row>=2 && row<8 && col==1 ){
+						square.classList.add('goalie-area');
+					}
+					if(row>=2 && row<8 && col==2 ){
+						square.classList.add('goalie-area');
+					}
+					if(row>=2 && row<8 && col==15 ){
+						square.classList.add('goalie-area');
+					}
+					if(row>=2 && row<8 && col==16 ){
+						square.classList.add('goalie-area');
+					}
 				}
 
 				const label = document.createElement('div');
@@ -104,6 +117,7 @@ class FootballBoard {
 		this.players.push(player_object);
 	}
 
+
 	highlightAdjacentSquares(row, col, status = false) {
 		// Get the indices of adjacent squares
 		const indices = [
@@ -115,18 +129,75 @@ class FootballBoard {
 			{ row: row + 1, col: col + 1 },
 			{ row, col: col - 1 },
 			{ row, col: col + 1 },
-		];
 
+			//2nd radius 
+			{ row: row - 2, col },
+			{ row: row - 2, col: col - 1 },
+			{ row: row - 2, col: col - 2 },
+			{ row: row - 2, col: col + 1 },
+			{ row: row - 2, col: col + 2 },
+			{ row: row + 2, col },
+			{ row: row + 2, col: col - 1 },
+			{ row: row + 2, col: col - 2 },
+			{ row: row + 1, col: col - 2 },
+			{ row: row - 1, col: col - 2 },
+			{ row: row + 1, col: col + 2 },
+			{ row: row - 1, col: col + 2 },
+			{ row: row + 2, col: col + 1 },
+			{ row: row + 2, col: col + 2 },
+			{ row, col: col - 2 },
+			{ row, col: col + 2 },
+
+			//3rd radius
+			{ row: row - 3, col },
+			{ row: row - 3, col: col - 1 },
+			{ row: row - 3, col: col + 1 },
+			{ row: row - 3, col: col - 2 },
+			{ row: row - 3, col: col + 2 },
+			{ row: row - 3, col: col + 3 },
+			{ row: row + 3, col },
+			{ row: row + 3, col: col - 1 },
+			{ row: row + 3, col: col + 1 },
+			{ row: row + 3, col: col - 2 },
+			{ row: row + 3, col: col + 2 },
+			{ row: row + 3, col: col + 3 },
+			{ row: row + 2, col: col - 3 },
+			{ row: row + 1, col: col - 3 },
+			{ row: row - 1, col: col - 3 },
+			{ row: row - 2, col: col - 3 },
+			{ row: row + 2, col: col + 3 },
+			{ row: row + 1, col: col + 3 },
+			{ row: row - 1, col: col + 3 },
+			{ row: row - 2, col: col + 3 },
+			{ row: row + 3, col: col - 2 },
+			{ row: row + 3, col: col - 3 },
+			{ row: row - 3, col: col - 2 },
+			{ row: row - 3, col: col - 3 },
+			{ row, col: col - 3 },
+			{ row, col: col + 3 }
+		];
+	
 		// Highlight each adjacent square
 		indices.forEach((index) => {
-			if (index.row >= 0 && index.row < 10 && index.col > 0 && index.col < 17) {
+			if (index.row >= 0 && index.row < 10 && index.col >= 0 && index.col < 18) {
 				const square = this.board.children[index.row * 18 + index.col];
-				if (status) square.classList.add('player-field');
-				else square.classList.add('adjacent-highlight');
+				if (status) {
+
+					console.log("yo..",Math.abs(row - index.row), Math.abs(col - index.col));
+
+					const distance = Math.max(Math.abs(row - index.row), Math.abs(col - index.col));
+					if (distance === 1) {
+						square.classList.add('player-field');
+					} else if (distance === 2 || distance === 3) {
+						square.classList.add('second-third-radius');
+					}
+				} else {
+					square.classList.add('adjacent-highlight');
+				}
 			}
 		});
 	}
-
+	
 	removeHighlightAdjacentSquares(row, col, status = false) {
 		// Get the indices of adjacent squares
 		const indices = [
@@ -138,17 +209,71 @@ class FootballBoard {
 			{ row: row + 1, col: col + 1 },
 			{ row, col: col - 1 },
 			{ row, col: col + 1 },
-		];
 
+			//2nd radius 
+			{ row: row - 2, col },
+			{ row: row - 2, col: col - 1 },
+			{ row: row - 2, col: col - 2 },
+			{ row: row - 2, col: col + 1 },
+			{ row: row - 2, col: col + 2 },
+			{ row: row + 2, col },
+			{ row: row + 2, col: col - 1 },
+			{ row: row + 2, col: col - 2 },
+			{ row: row + 1, col: col - 2 },
+			{ row: row - 1, col: col - 2 },
+			{ row: row + 1, col: col + 2 },
+			{ row: row - 1, col: col + 2 },
+			{ row: row + 2, col: col + 1 },
+			{ row: row + 2, col: col + 2 },
+			{ row, col: col - 2 },
+			{ row, col: col + 2 },
+
+			//3rd radius
+			{ row: row - 3, col },
+			{ row: row - 3, col: col - 1 },
+			{ row: row - 3, col: col + 1 },
+			{ row: row - 3, col: col - 2 },
+			{ row: row - 3, col: col + 2 },
+			{ row: row - 3, col: col + 3 },
+			{ row: row + 3, col },
+			{ row: row + 3, col: col - 1 },
+			{ row: row + 3, col: col + 1 },
+			{ row: row + 3, col: col - 2 },
+			{ row: row + 3, col: col + 2 },
+			{ row: row + 3, col: col + 3 },
+			{ row: row + 2, col: col - 3 },
+			{ row: row + 1, col: col - 3 },
+			{ row: row - 1, col: col - 3 },
+			{ row: row - 2, col: col - 3 },
+			{ row: row + 2, col: col + 3 },
+			{ row: row + 1, col: col + 3 },
+			{ row: row - 1, col: col + 3 },
+			{ row: row - 2, col: col + 3 },
+			{ row: row + 3, col: col - 2 },
+			{ row: row + 3, col: col - 3 },
+			{ row: row - 3, col: col - 2 },
+			{ row: row - 3, col: col - 3 },
+			{ row, col: col - 3 },
+			{ row, col: col + 3 }
+		];
+	
 		// Remove highlight from each adjacent square
 		indices.forEach((index) => {
 			if (index.row >= 0 && index.row < 10 && index.col >= 0 && index.col < 18) {
 				const square = this.board.children[index.row * 18 + index.col];
-				if (status) square.classList.remove('player-field');
-				else square.classList.remove('adjacent-highlight');
+				if (status) {
+					square.classList.remove('player-field', 'second-third-radius');
+				} else {
+					square.classList.remove('adjacent-highlight');
+				}
 			}
 		});
 	}
+	
+	
+
+
+
 }
 
 const goalie_1 = new PlayerEntity(1, 'blue', 5, 1, 'G');
