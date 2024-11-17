@@ -1,0 +1,3686 @@
+[
+  {
+    "timestamp": "2024-11-16T23:05:06.478582",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What is the full form of CPU?",
+          "option1": "Central Processing Unit",
+          "option2": "Computer Power Unit",
+          "option3": "Central Performance Unit",
+          "option4": "Computer Performance Unit",
+          "answer": "option1"
+        },
+        {
+          "question": "What type of programming is used in Android apps?",
+          "option1": "iOS",
+          "option2": "Java",
+          "option3": "C++",
+          "option4": "Python",
+          "answer": "option2"
+        },
+        {
+          "question": "Who is the creator of Python?",
+          "option1": "Bill Gates",
+          "option2": "Steve Jobs",
+          "option3": "Guido van Rossum",
+          "option4": "Mark Zuckerberg",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the primary function of the RAM?",
+          "option1": "To store data permanently",
+          "option2": "To store data temporarily",
+          "option3": "To store data in cloud",
+          "option4": "To store data in hard drive",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the full form of GUI?",
+          "option1": "Graphical User Interface",
+          "option2": "Graphical User Input",
+          "option3": "Graphical User Interest",
+          "option4": "Graphical User Input",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the founder of Google?",
+          "option1": "Bill Gates",
+          "option2": "Steve Jobs",
+          "option3": "Larry Page and Sergey Brin",
+          "option4": "Mark Zuckerberg",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the primary purpose of a compiler?",
+          "option1": "To translate code into assembly",
+          "option2": "To translate code into machine language",
+          "option3": "To translate code into high level language",
+          "option4": "To run code directly",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between '==' and '==' in C?",
+          "option1": "Both are used for equality",
+          "option2": "Both are used for inequality",
+          "option3": "'==' checks for equality of value, '==' checks for equality of reference",
+          "option4": "'==' checks for inequality of value, '==' checks for inequality of reference",
+          "answer": "option3"
+        },
+        {
+          "question": "What language is used for scripting in Linux?",
+          "option1": "Java",
+          "option2": "Python",
+          "option3": "Bash",
+          "option4": "PHP",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the full form of HTTP?",
+          "option1": "Hyper Text Transfer Protocol",
+          "option2": "Hyper Text Transfer Protocol Secure",
+          "option3": "Hyper Text Transfer Protocol Simple",
+          "option4": "Hyper Text Transfer Protocol Secure Simple",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the founder of MySQL?",
+          "option1": "Bill Gates",
+          "option2": "Steve Jobs",
+          "option3": "Michael Stonebraker",
+          "option4": "Monty Widenius",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the difference between 'int' and 'float' in C?",
+          "option1": "Both are used for integer values",
+          "option2": "Both are used for floating point values",
+          "option3": "'int' is used for integer values, 'float' is used for floating point values",
+          "option4": "'int' is used for floating point values, 'float' is used for integer values",
+          "answer": "option3"
+        },
+        {
+          "question": "What language is used for developing iOS apps?",
+          "option1": "Java",
+          "option2": "C++",
+          "option3": "Swift",
+          "option4": "Python",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the primary function of the operating system?",
+          "option1": "To store data",
+          "option2": "To manage hardware resources",
+          "option3": "To manage software resources",
+          "option4": "To run applications",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the full form of API?",
+          "option1": "Application Programming Interface",
+          "option2": "Application Programming Input",
+          "option3": "Application Programming Interface Secure",
+          "option4": "Application Programming Interface Simple",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the founder of Safari?",
+          "option1": "Bill Gates",
+          "option2": "Steve Jobs",
+          "option3": "Larry Page and Sergey Brin",
+          "option4": "Tim Cook",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'include' and 'import' in C?",
+          "option1": "Both are used for importing libraries",
+          "option2": "Both are used for including libraries",
+          "option3": "'include' is used for including libraries, 'import' is used for importing libraries",
+          "option4": "'include' is used for importing libraries, 'import' is used for including libraries",
+          "answer": "option3"
+        },
+        {
+          "question": "What language is used for developing web applications?",
+          "option1": "Java",
+          "option2": "C++",
+          "option3": "Python",
+          "option4": "JavaScript",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the primary function of the firewall?",
+          "option1": "To block incoming traffic",
+          "option2": "To block outgoing traffic",
+          "option3": "To block both incoming and outgoing traffic",
+          "option4": "To allow both incoming and outgoing traffic",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the full form of ISP?",
+          "option1": "Internet Service Provider",
+          "option2": "Internet Service Package",
+          "option3": "Internet Service Program",
+          "option4": "Internet Service Plan",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the founder of YouTube?",
+          "option1": "Bill Gates",
+          "option2": "Steve Jobs",
+          "option3": "Larry Page and Sergey Brin",
+          "option4": "Chad Hurley, Steve Chen, and Jawed Karim",
+          "answer": "option4"
+        },
+        {
+          "question": "What language is used for developing desktop applications?",
+          "option1": "Java",
+          "option2": "C++",
+          "option3": "Python",
+          "option4": "C",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the primary function of the antivirus software?",
+          "option1": "To protect against malware",
+          "option2": "To protect against viruses",
+          "option3": "To protect against both malware and viruses",
+          "option4": "To allow both malware and viruses",
+          "answer": "option3"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T00:38:26.270205",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What is the primary function of a compiler?",
+          "option1": "It translates the code into machine language",
+          "option2": "It executes the code directly on the machine",
+          "option3": "It runs a program on the computer",
+          "option4": "It updates the operating system",
+          "answer": "option1"
+        },
+        {
+          "question": "Which programming language is used for web development?",
+          "option1": "C++",
+          "option2": "C#",
+          "option3": "JavaScript",
+          "option4": "Python",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of the 'main()' function in C?",
+          "option1": "It is used to declare variables",
+          "option2": "It is used to define the program's entry point",
+          "option3": "It is used to terminate the program",
+          "option4": "It is used to comment code",
+          "answer": "option2"
+        },
+        {
+          "question": "What does the 'printf()' function in C do?",
+          "option1": "It reads input from the user",
+          "option2": "It writes output to the console",
+          "option3": "It declares variables",
+          "option4": "It terminates the program",
+          "answer": "option2"
+        },
+        {
+          "question": "Which C data type is used to store a single character?",
+          "option1": "int",
+          "option2": "float",
+          "option3": "char",
+          "option4": "double",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of the 'if-else' statement in C?",
+          "option1": "It is used to declare variables",
+          "option2": "It is used to define the program's entry point",
+          "option3": "It is used to make decisions based on conditions",
+          "option4": "It is used to comment code",
+          "answer": "option3"
+        },
+        {
+          "question": "Which C function is used to get the user's input?",
+          "option1": "scanf()",
+          "option2": "printf()",
+          "option3": "getchar()",
+          "option4": "putchar()",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'switch' statement in C?",
+          "option1": "It is used to declare variables",
+          "option2": "It is used to define the program's entry point",
+          "option3": "It is used to make decisions based on multiple conditions",
+          "option4": "It is used to comment code",
+          "answer": "option3"
+        },
+        {
+          "question": "Which C operator is used for assignment?",
+          "option1": "+",
+          "option2": "-",
+          "option3": "=",
+          "option4": "*",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of the 'while' loop in C?",
+          "option1": "It is used to declare variables",
+          "option2": "It is used to define the program's entry point",
+          "option3": "It is used to repeat a set of statements while a condition is true",
+          "option4": "It is used to comment code",
+          "answer": "option3"
+        },
+        {
+          "question": "Which C function is used to clear the screen?",
+          "option1": "system('cls')",
+          "option2": "system('clear')",
+          "option3": "system('pause')",
+          "option4": "system('beep')",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'for' loop in C?",
+          "option1": "It is used to declare variables",
+          "option2": "It is used to define the program's entry point",
+          "option3": "It is used to repeat a set of statements for a specified number of times",
+          "option4": "It is used to comment code",
+          "answer": "option3"
+        },
+        {
+          "question": "Which C function is used to pause the execution of the program?",
+          "option1": "system('pause')",
+          "option2": "system('cls')",
+          "option3": "system('clear')",
+          "option4": "system('beep')",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'do-while' loop in C?",
+          "option1": "It is used to declare variables",
+          "option2": "It is used to define the program's entry point",
+          "option3": "It is used to repeat a set of statements while a condition is true",
+          "option4": "It is used to comment code",
+          "answer": "option3"
+        },
+        {
+          "question": "Which C function is used to write a single character to the console?",
+          "option1": "putchar()",
+          "option2": "printf()",
+          "option3": "getchar()",
+          "option4": "scanf()",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'break' statement in C?",
+          "option1": "It is used to declare variables",
+          "option2": "It is used to define the program's entry point",
+          "option3": "It is used to exit a loop or switch statement",
+          "option4": "It is used to comment code",
+          "answer": "option3"
+        },
+        {
+          "question": "Which C function is used to read a single character from the user?",
+          "option1": "getchar()",
+          "option2": "scanf()",
+          "option3": "printf()",
+          "option4": "putchar()",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'goto' statement in C?",
+          "option1": "It is used to declare variables",
+          "option2": "It is used to define the program's entry point",
+          "option3": "It is used to jump to a specific location in the code",
+          "option4": "It is used to comment code",
+          "answer": "option3"
+        },
+        {
+          "question": "Which C function is used to declare a variable?",
+          "option1": "scanf()",
+          "option2": "printf()",
+          "option3": "getchar()",
+          "option4": "int x;",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the purpose of the 'sizeof' operator in C?",
+          "option1": "It is used to declare variables",
+          "option2": "It is used to define the program's entry point",
+          "option3": "It is used to get the size of a data type or a variable",
+          "option4": "It is used to comment code",
+          "answer": "option3"
+        },
+        {
+          "question": "Which C function is used to check if a file exists?",
+          "option1": "stdio.h",
+          "option2": "stdlib.h",
+          "option3": "fopen()",
+          "option4": "exit()",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of the 'NULL' pointer in C?",
+          "option1": "It is used to declare variables",
+          "option2": "It is used to define the program's entry point",
+          "option3": "It is used to point to an invalid memory location",
+          "option4": "It is used to comment code",
+          "answer": "option3"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T00:41:48.760055",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What is the primary function of a computer's CPU?",
+          "option1": "To store data",
+          "option2": "To process instructions",
+          "option3": "To display graphics",
+          "option4": "To connect to the internet",
+          "answer": "option2"
+        },
+        {
+          "question": "Which programming language is used for developing Android apps?",
+          "option1": "Java",
+          "option2": "Python",
+          "option3": "C++",
+          "option4": "JavaScript",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of a 'while' loop in C?",
+          "option1": "To repeat a block of code until a condition is met",
+          "option2": "To skip a block of code if a condition is true",
+          "option3": "To repeat a block of code a fixed number of times",
+          "option4": "To stop a program if a condition is met",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the co-founder of Apple?",
+          "option1": "Steve Jobs",
+          "option2": "Bill Gates",
+          "option3": "Mark Zuckerberg",
+          "option4": "Larry Ellison",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the name of the popular computer mouse icon?",
+          "option1": "Pointer",
+          "option2": "Cursor",
+          "option3": "Icon",
+          "option4": "Avatar",
+          "answer": "option2"
+        },
+        {
+          "question": "In C, what is the purpose of the 'printf' function?",
+          "option1": "To read user input",
+          "option2": "To display output on the screen",
+          "option3": "To store data in a file",
+          "option4": "To connect to a database",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the primary function of a computer's RAM?",
+          "option1": "To store data permanently",
+          "option2": "To process instructions",
+          "option3": "To store temporary data",
+          "option4": "To connect to the internet",
+          "answer": "option3"
+        },
+        {
+          "question": "Who is the founder of Microsoft?",
+          "option1": "Bill Gates",
+          "option2": "Steve Jobs",
+          "option3": "Mark Zuckerberg",
+          "option4": "Larry Ellison",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the name of the popular operating system developed by Microsoft?",
+          "option1": "Windows",
+          "option2": "MacOS",
+          "option3": "Linux",
+          "option4": "ChromeOS",
+          "answer": "option1"
+        },
+        {
+          "question": "In C, what is the purpose of the 'if' statement?",
+          "option1": "To repeat a block of code",
+          "option2": "To skip a block of code",
+          "option3": "To stop a program if a condition is met",
+          "option4": "To display output on the screen",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the primary function of a computer's hard drive?",
+          "option1": "To store temporary data",
+          "option2": "To store data permanently",
+          "option3": "To process instructions",
+          "option4": "To connect to the internet",
+          "answer": "option2"
+        },
+        {
+          "question": "Who is the CEO of Tesla?",
+          "option1": "Elon Musk",
+          "option2": "Jeff Bezos",
+          "option3": "Mark Zuckerberg",
+          "option4": "Bill Gates",
+          "answer": "option1"
+        },
+        {
+          "question": "In C, what is the purpose of the 'for' loop?",
+          "option1": "To repeat a block of code until a condition is met",
+          "option2": "To repeat a block of code a fixed number of times",
+          "option3": "To skip a block of code if a condition is true",
+          "option4": "To stop a program if a condition is met",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the name of the popular programming language used for web development?",
+          "option1": "Java",
+          "option2": "Python",
+          "option3": "JavaScript",
+          "option4": "C++",
+          "answer": "option3"
+        },
+        {
+          "question": "Who is the co-founder of Google?",
+          "option1": "Larry Page",
+          "option2": "Sergey Brin",
+          "option3": "Mark Zuckerberg",
+          "option4": "Bill Gates",
+          "answer": "option1"
+        },
+        {
+          "question": "In C, what is the purpose of the 'switch' statement?",
+          "option1": "To repeat a block of code",
+          "option2": "To skip a block of code",
+          "option3": "To stop a program if a condition is met",
+          "option4": "To execute different blocks of code based on a condition",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the primary function of a computer's graphics card?",
+          "option1": "To store data permanently",
+          "option2": "To process instructions",
+          "option3": "To display graphics",
+          "option4": "To connect to the internet",
+          "answer": "option3"
+        },
+        {
+          "question": "Who is the founder of Facebook?",
+          "option1": "Mark Zuckerberg",
+          "option2": "Steve Jobs",
+          "option3": "Bill Gates",
+          "option4": "Larry Ellison",
+          "answer": "option1"
+        },
+        {
+          "question": "In C, what is the purpose of the 'while' loop?",
+          "option1": "To repeat a block of code a fixed number of times",
+          "option2": "To repeat a block of code until a condition is met",
+          "option3": "To skip a block of code if a condition is true",
+          "option4": "To stop a program if a condition is met",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the primary function of a computer's power supply?",
+          "option1": "To store data permanently",
+          "option2": "To process instructions",
+          "option3": "To supply power to the computer",
+          "option4": "To connect to the internet",
+          "answer": "option3"
+        },
+        {
+          "question": "Who is the co-founder of Amazon?",
+          "option1": "Jeff Bezos",
+          "option2": "Steve Jobs",
+          "option3": "Mark Zuckerberg",
+          "option4": "Larry Ellison",
+          "answer": "option1"
+        },
+        {
+          "question": "In C, what is the purpose of the 'do-while' loop?",
+          "option1": "To repeat a block of code a fixed number of times",
+          "option2": "To repeat a block of code until a condition is met",
+          "option3": "To skip a block of code if a condition is true",
+          "option4": "To execute a block of code once before checking a condition",
+          "answer": "option4"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T00:41:59.225557",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What is the popular operating system developed by Microsoft?",
+          "option1": "Windows",
+          "option2": "MacOS",
+          "option3": "Linux",
+          "option4": "Chrome OS",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the co-founder of Google?",
+          "option1": "Bill Gates",
+          "option2": "Jeff Bezos",
+          "option3": "Larry Page",
+          "option4": "Steve Jobs",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the primary programming language used for web development?",
+          "option1": "C",
+          "option2": "C++",
+          "option3": "Java",
+          "option4": "JavaScript",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the popular database management system?",
+          "option1": "MySQL",
+          "option2": "MongoDB",
+          "option3": "PostgreSQL",
+          "option4": "Oracle",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the founder of Facebook?",
+          "option1": "Mark Zuckerberg",
+          "option2": "Bill Gates",
+          "option3": "Steve Jobs",
+          "option4": "Larry Ellison",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the process of controlling the flow of a program?",
+          "option1": "Caching",
+          "option2": "Looping",
+          "option3": "Branching",
+          "option4": "Indentation",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the type of variable that stores a sequence of characters?",
+          "option1": "Integer",
+          "option2": "Float",
+          "option3": "String",
+          "option4": "Boolean",
+          "answer": "option3"
+        },
+        {
+          "question": "Which of the following programming languages is known for its object-oriented approach?",
+          "option1": "C",
+          "option2": "C++",
+          "option3": "Java",
+          "option4": "Python",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of the 'printf' function in C?",
+          "option1": "To read user input",
+          "option2": "To display output on the screen",
+          "option3": "To store data in a file",
+          "option4": "To perform arithmetic operations",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the type of loop that continues to execute a block of code until a certain condition is met?",
+          "option1": "For loop",
+          "option2": "While loop",
+          "option3": "Do-While loop",
+          "option4": "Switch statement",
+          "answer": "option2"
+        },
+        {
+          "question": "Who is the co-founder of Amazon?",
+          "option1": "Jeff Bezos",
+          "option2": "Mark Zuckerberg",
+          "option3": "Steve Jobs",
+          "option4": "Bill Gates",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the popular IDE for C and C++ programming?",
+          "option1": "Visual Studio",
+          "option2": "Eclipse",
+          "option3": "NetBeans",
+          "option4": "CodeBlocks",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the purpose of the 'main' function in C?",
+          "option1": "To perform calculations",
+          "option2": "To display output on the screen",
+          "option3": "To store data in a file",
+          "option4": "To serve as the program entry point",
+          "answer": "option4"
+        },
+        {
+          "question": "Which of the following is a built-in function in C for getting user input?",
+          "option1": "scanf()",
+          "option2": "printf()",
+          "option3": "getchar()",
+          "option4": "puts()",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the type of variable that stores a single character?",
+          "option1": "Integer",
+          "option2": "Float",
+          "option3": "Character",
+          "option4": "Boolean",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of the 'include' directive in C?",
+          "option1": "To define a function",
+          "option2": "To declare a variable",
+          "option3": "To include a header file",
+          "option4": "To perform arithmetic operations",
+          "answer": "option3"
+        },
+        {
+          "question": "Who is the co-founder of Sun Microsystems?",
+          "option1": "Bill Gates",
+          "option2": "Steve Jobs",
+          "option3": "Larry Ellison",
+          "option4": "Andy Bechtolsheim",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the popular programming language used for machine learning?",
+          "option1": "Python",
+          "option2": "Java",
+          "option3": "C++",
+          "option4": "JavaScript",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'malloc' function in C?",
+          "option1": "To perform arithmetic operations",
+          "option2": "To store data in a file",
+          "option3": "To allocate memory dynamically",
+          "option4": "To get user input",
+          "answer": "option3"
+        },
+        {
+          "question": "Which of the following is a type of error handling in C?",
+          "option1": "Exception handling",
+          "option2": "Try-catch block",
+          "option3": "Error codes",
+          "option4": "Assert statements",
+          "answer": "option4"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T00:42:21.605645",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What does CPU stand for?",
+          "option1": "Central Processing Unit",
+          "option2": "Control Panel Unit",
+          "option3": "Computer Power Unit",
+          "option4": "Computer Processor Unit",
+          "answer": "option1"
+        },
+        {
+          "question": "Which of the following programming languages is known for its simplicity and ease of use?",
+          "option1": "C",
+          "option2": "C++",
+          "option3": "Python",
+          "option4": "Java",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the primary function of a compiler?",
+          "option1": "To translate code into machine language",
+          "option2": "To debug code",
+          "option3": "To store data",
+          "option4": "To connect to the internet",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the founder of Google?",
+          "option1": "Larry Page",
+          "option2": "Sergey Brin",
+          "option3": "Bill Gates",
+          "option4": "Mark Zuckerberg",
+          "answer": "option1"
+        },
+        {
+          "question": "What does RAM stand for?",
+          "option1": "Random Access Memory",
+          "option2": "Read-Only Memory",
+          "option3": "Read-Write Memory",
+          "option4": "Register Access Memory",
+          "answer": "option1"
+        },
+        {
+          "question": "Which of the following is a type of data storage?",
+          "option1": "CPU",
+          "option2": "GPU",
+          "option3": "HDD",
+          "option4": "Monitor",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of a header file in C?",
+          "option1": "To store data",
+          "option2": "To define functions",
+          "option3": "To include necessary libraries and definitions",
+          "option4": "To create a new program",
+          "answer": "option3"
+        },
+        {
+          "question": "Who is the creator of the C programming language?",
+          "option1": "Dennis Ritchie",
+          "option2": "Brian Kernighan",
+          "option3": "Bjarne Stroustrup",
+          "option4": "Guido van Rossum",
+          "answer": "option1"
+        },
+        {
+          "question": "What does API stand for?",
+          "option1": "Application Programming Interface",
+          "option2": "Advanced Programming Interface",
+          "option3": "Application Protocol Interface",
+          "option4": "Access Point Interface",
+          "answer": "option1"
+        },
+        {
+          "question": "Which of the following is a type of programming paradigm?",
+          "option1": "Object-Oriented",
+          "option2": "Functional",
+          "option3": "Logical",
+          "option4": "Both A and B",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the difference between == and != in C?",
+          "option1": "== is used for equality, != is used for inequality",
+          "option2": "== is used for inequality, != is used for equality",
+          "option3": "== is used for greater than, != is used for less than",
+          "option4": "== is used for less than, != is used for greater than",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the CEO of Microsoft?",
+          "option1": "Satya Nadella",
+          "option2": "Sundar Pichai",
+          "option3": "Mark Zuckerberg",
+          "option4": "Bill Gates",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the #include directive in C?",
+          "option1": "To include necessary libraries and definitions",
+          "option2": "To exclude unnecessary libraries and definitions",
+          "option3": "To define functions",
+          "option4": "To create a new program",
+          "answer": "option1"
+        },
+        {
+          "question": "Which of the following is a type of computer hardware?",
+          "option1": "CPU",
+          "option2": "GPU",
+          "option3": "HDD",
+          "option4": "All of the above",
+          "answer": "option4"
+        },
+        {
+          "question": "Who is the co-founder of Oracle?",
+          "option1": "Larry Ellison",
+          "option2": "Sergey Brin",
+          "option3": "Bill Gates",
+          "option4": "Mark Zuckerberg",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the main() function in C?",
+          "option1": "To define global variables",
+          "option2": "To define local variables",
+          "option3": "To start the execution of the program",
+          "option4": "To end the execution of the program",
+          "answer": "option3"
+        },
+        {
+          "question": "Which of the following is a type of software?",
+          "option1": "Hardware",
+          "option2": "System Software",
+          "option3": "Application Software",
+          "option4": "None of the above",
+          "answer": "option3"
+        },
+        {
+          "question": "Who is the founder of IBM?",
+          "option1": "Thomas Watson Sr.",
+          "option2": "Bill Gates",
+          "option3": "Mark Zuckerberg",
+          "option4": "Larry Ellison",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of a loop in C?",
+          "option1": "To repeat a block of code",
+          "option2": "To skip a block of code",
+          "option3": "To terminate a block of code",
+          "option4": "To create a new program",
+          "answer": "option1"
+        },
+        {
+          "question": "Which of the following is a type of data type in C?",
+          "option1": "int",
+          "option2": "float",
+          "option3": "char",
+          "option4": "All of the above",
+          "answer": "option4"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T00:44:20.594948",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What is the primary function of a CPU?",
+          "option1": "To store data",
+          "option2": "To process data",
+          "option3": "To display data",
+          "option4": "To connect to the internet",
+          "answer": "option2"
+        },
+        {
+          "question": "What does RAM stand for?",
+          "option1": "Random Access Memory",
+          "option2": "Read Only Memory",
+          "option3": "Reduced Access Memory",
+          "option4": "Random Access Storage",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of a compiler?",
+          "option1": "To run a program",
+          "option2": "To translate code into machine language",
+          "option3": "To debug a program",
+          "option4": "To connect to the internet",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between '==' and '==' in C?",
+          "option1": "Both are used for comparison",
+          "option2": "One is used for comparison and the other for assignment",
+          "option3": "One is used for integers and the other for floats",
+          "option4": "One is used in loops and the other in conditional statements",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the 'main' function in C?",
+          "option1": "To declare variables",
+          "option2": "To define a loop",
+          "option3": "To start the execution of a program",
+          "option4": "To end the execution of a program",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the difference between 'int' and 'float' in C?",
+          "option1": "One is used for integers and the other for strings",
+          "option2": "One is used for integers and the other for floats",
+          "option3": "One is used for booleans and the other for characters",
+          "option4": "One is used for arrays and the other for structures",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the 'printf' function in C?",
+          "option1": "To read input from the user",
+          "option2": "To write output to the screen",
+          "option3": "To perform arithmetic operations",
+          "option4": "To compare values",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'foreach' and 'for' loop in C?",
+          "option1": "One is used for arrays and the other for strings",
+          "option2": "One is used for integers and the other for floats",
+          "option3": "One is used for traversal and the other for iteration",
+          "option4": "One is used for conditional statements and the other for loops",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of the 'scanf' function in C?",
+          "option1": "To write output to the screen",
+          "option2": "To read input from the user",
+          "option3": "To perform arithmetic operations",
+          "option4": "To compare values",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'true' and 'false' in C?",
+          "option1": "One is used for integers and the other for floats",
+          "option2": "One is used for booleans and the other for characters",
+          "option3": "One is used for conditional statements and the other for loops",
+          "option4": "One is used for arrays and the other for structures",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the 'if' statement in C?",
+          "option1": "To declare variables",
+          "option2": "To define a loop",
+          "option3": "To perform conditional operations",
+          "option4": "To end the execution of a program",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the difference between '&&' and '||' in C?",
+          "option1": "One is used for logical AND and the other for logical OR",
+          "option2": "One is used for logical OR and the other for logical AND",
+          "option3": "One is used for conditional statements and the other for loops",
+          "option4": "One is used for arrays and the other for structures",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'switch' statement in C?",
+          "option1": "To declare variables",
+          "option2": "To define a loop",
+          "option3": "To perform conditional operations based on a value",
+          "option4": "To end the execution of a program",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the difference between 'struct' and 'union' in C?",
+          "option1": "One is used for arrays and the other for structures",
+          "option2": "One is used for variables and the other for constants",
+          "option3": "One is used for memory allocation and the other for deallocation",
+          "option4": "One is used for accessing memory and the other for modifying it",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'sizeof' operator in C?",
+          "option1": "To calculate the memory address of a variable",
+          "option2": "To calculate the size of a variable in bytes",
+          "option3": "To calculate the memory address of an array",
+          "option4": "To calculate the size of an array in bytes",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'const' and 'volatile' in C?",
+          "option1": "One is used for variables and the other for constants",
+          "option2": "One is used for memory allocation and the other for deallocation",
+          "option3": "One is used for accessing memory and the other for modifying it",
+          "option4": "One is used for arrays and the other for structures",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'goto' statement in C?",
+          "option1": "To declare variables",
+          "option2": "To define a loop",
+          "option3": "To jump to a specific line of code",
+          "option4": "To end the execution of a program",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the difference between 'auto' and 'register' in C?",
+          "option1": "One is used for variables and the other for constants",
+          "option2": "One is used for memory allocation and the other for deallocation",
+          "option3": "One is used for accessing memory and the other for modifying it",
+          "option4": "One is used for arrays and the other for structures",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'extern' keyword in C?",
+          "option1": "To declare variables",
+          "option2": "To define a loop",
+          "option3": "To declare a variable in another file",
+          "option4": "To end the execution of a program",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the difference between 'static' and 'extern' in C?",
+          "option1": "One is used for variables and the other for constants",
+          "option2": "One is used for memory allocation and the other for deallocation",
+          "option3": "One is used for accessing memory and the other for modifying it",
+          "option4": "One is used for internal linkage and the other for external linkage",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the purpose of the 'typedef' keyword in C?",
+          "option1": "To declare variables",
+          "option2": "To define a loop",
+          "option3": "To create an alias for a data type",
+          "option4": "To end the execution of a program",
+          "answer": "option3"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T00:44:31.692202",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What is the primary function of the CPU?",
+          "option1": "To store data",
+          "option2": "To process instructions",
+          "option3": "To connect peripherals",
+          "option4": "To display output",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the most widely used programming language?",
+          "option1": "Python",
+          "option2": "Java",
+          "option3": "JavaScript",
+          "option4": "C++",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of a compiler?",
+          "option1": "To translate code into machine language",
+          "option2": "To run code on a virtual machine",
+          "option3": "To debug code",
+          "option4": "To optimize code",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the difference between a byte and a bit?",
+          "option1": "A byte is 8 bits, a bit is 8 bytes",
+          "option2": "A byte is 1 bit, a bit is 8 bytes",
+          "option3": "A byte is 8 bits, a bit is 1 byte",
+          "option4": "A byte is 4 bits, a bit is 8 bytes",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the 'main' function in C?",
+          "option1": "It is where the program starts",
+          "option2": "It is where the program ends",
+          "option3": "It is used to declare variables",
+          "option4": "It is used to define loops",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'printf' function in C?",
+          "option1": "To declare variables",
+          "option2": "To define loops",
+          "option3": "To print output to the screen",
+          "option4": "To read input from the user",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the difference between 'static' and 'dynamic' memory allocation?",
+          "option1": "Static memory allocation is faster, dynamic memory allocation is slower",
+          "option2": "Static memory allocation is slower, dynamic memory allocation is faster",
+          "option3": "Static memory allocation is used for global variables, dynamic memory allocation is used for local variables",
+          "option4": "Static memory allocation is used for local variables, dynamic memory allocation is used for global variables",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of the 'while' loop in C?",
+          "option1": "To repeat code until a condition is true",
+          "option2": "To repeat code until a condition is false",
+          "option3": "To repeat code a fixed number of times",
+          "option4": "To skip code if a condition is true",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the difference between '>>' and '>>=' operators in C?",
+          "option1": ">> is used for division, >>= is used for multiplication",
+          "option2": ">> is used for multiplication, >>= is used for division",
+          "option3": ">> is used for bitwise right shift, >>= is used for assignment",
+          "option4": ">> is used for assignment, >>= is used for bitwise right shift",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of the 'switch' statement in C?",
+          "option1": "To repeat code until a condition is true",
+          "option2": "To repeat code until a condition is false",
+          "option3": "To execute different code blocks based on a value",
+          "option4": "To skip code if a condition is true",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the difference between 'int' and 'float' data types in C?",
+          "option1": "int is used for whole numbers, float is used for decimal numbers",
+          "option2": "int is used for decimal numbers, float is used for whole numbers",
+          "option3": "int is used for integers, float is used for floating point numbers",
+          "option4": "int is used for floating point numbers, float is used for integers",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of the 'void' keyword in C?",
+          "option1": "To declare a function that returns a value",
+          "option2": "To declare a function that does not return a value",
+          "option3": "To declare a variable",
+          "option4": "To declare a constant",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between '=='' and '!=' operators in C?",
+          "option1": "== is used for equality, != is used for inequality",
+          "option2": "== is used for inequality, != is used for equality",
+          "option3": "== is used for greater than, != is used for less than",
+          "option4": "== is used for less than, != is used for greater than",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'continue' statement in C?",
+          "option1": "To skip code and go to the next iteration",
+          "option2": "To repeat code until a condition is true",
+          "option3": "To repeat code until a condition is false",
+          "option4": "To skip code if a condition is true",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the difference between '&&' and '||' operators in C?",
+          "option1": "&& is used for logical AND, || is used for logical OR",
+          "option2": "&& is used for logical OR, || is used for logical AND",
+          "option3": "&& is used for greater than, || is used for less than",
+          "option4": "&& is used for less than, || is used for greater than",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'goto' statement in C?",
+          "option1": "To jump to a specific line of code",
+          "option2": "To repeat code until a condition is true",
+          "option3": "To repeat code until a condition is false",
+          "option4": "To skip code if a condition is true",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the difference between 'struct' and 'union' in C?",
+          "option1": "struct is used for storing multiple variables, union is used for storing a single variable",
+          "option2": "struct is used for storing a single variable, union is used for storing multiple variables",
+          "option3": "struct is used for storing integers, union is used for storing floating point numbers",
+          "option4": "struct is used for storing floating point numbers, union is used for storing integers",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'typedef' keyword in C?",
+          "option1": "To declare a function",
+          "option2": "To declare a variable",
+          "option3": "To declare a type",
+          "option4": "To declare a constant",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the difference between 'const' and 'volatile' in C?",
+          "option1": "const is used for constants, volatile is used for variables",
+          "option2": "const is used for variables, volatile is used for constants",
+          "option3": "const is used for integers, volatile is used for floating point numbers",
+          "option4": "const is used for floating point numbers, volatile is used for integers",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'auto' keyword in C?",
+          "option1": "To declare a function",
+          "option2": "To declare a variable",
+          "option3": "To automatically determine the data type",
+          "option4": "To automatically generate a unique identifier",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the difference between 'extern' and 'static' in C?",
+          "option1": "extern is used for variables, static is used for functions",
+          "option2": "extern is used for functions, static is used for variables",
+          "option3": "extern is used for global variables, static is used for local variables",
+          "option4": "extern is used for local variables, static is used for global variables",
+          "answer": "option3"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T00:46:04.492172",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "Which company developed the Android operating system?",
+          "option1": "Google",
+          "option2": "Apple",
+          "option3": "Microsoft",
+          "option4": "Amazon",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary function of a compiler in programming?",
+          "option1": "To translate code into machine language",
+          "option2": "To debug code for errors",
+          "option3": "To optimize code for performance",
+          "option4": "To convert code between different programming languages",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the difference between RAM and ROM in a computer?",
+          "option1": "RAM is permanent storage, ROM is temporary storage",
+          "option2": "RAM is temporary storage, ROM is permanent storage",
+          "option3": "RAM is used for data, ROM is used for programs",
+          "option4": "RAM is used for programs, ROM is used for data",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the 'main' function in a C program?",
+          "option1": "To define a variable",
+          "option2": "To create a loop",
+          "option3": "To serve as the entry point of the program",
+          "option4": "To include a library",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the use of the 'void' keyword in C?",
+          "option1": "To declare a variable",
+          "option2": "To return a value from a function",
+          "option3": "To indicate that a function does not return a value",
+          "option4": "To create a loop",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of the 'printf' function in C?",
+          "option1": "To read input from the user",
+          "option2": "To write output to the console",
+          "option3": "To calculate the area of a rectangle",
+          "option4": "To sort a list of numbers",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the use of the 'malloc' function in C?",
+          "option1": "To allocate memory for a variable",
+          "option2": "To free memory allocated by 'malloc'",
+          "option3": "To read input from the user",
+          "option4": "To calculate the square root of a number",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'free' function in C?",
+          "option1": "To allocate memory for a variable",
+          "option2": "To deallocate memory previously allocated by 'malloc'",
+          "option3": "To read input from the user",
+          "option4": "To calculate the square root of a number",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between a 'while' loop and a 'for' loop in C?",
+          "option1": "A 'while' loop is used for conditional execution, a 'for' loop is used for iterative execution",
+          "option2": "A 'while' loop is used for iterative execution, a 'for' loop is used for conditional execution",
+          "option3": "A 'while' loop is used for numeric loops, a 'for' loop is used for non-numeric loops",
+          "option4": "A 'while' loop is used for non-numeric loops, a 'for' loop is used for numeric loops",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'if-else' statement in C?",
+          "option1": "To execute a block of code conditionally",
+          "option2": "To execute a block of code unconditionally",
+          "option3": "To read input from the user",
+          "option4": "To calculate the square root of a number",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the use of the 'switch' statement in C?",
+          "option1": "To execute a block of code conditionally based on a variable's value",
+          "option2": "To execute a block of code unconditionally",
+          "option3": "To read input from the user",
+          "option4": "To calculate the square root of a number",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'getchar' function in C?",
+          "option1": "To read input from the user",
+          "option2": "To write output to the console",
+          "option3": "To calculate the area of a rectangle",
+          "option4": "To sort a list of numbers",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the use of the 'putchar' function in C?",
+          "option1": "To read input from the user",
+          "option2": "To write output to the console",
+          "option3": "To calculate the area of a rectangle",
+          "option4": "To sort a list of numbers",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between a 'struct' and a 'union' in C?",
+          "option1": "A 'struct' is used to define a collection of variables, a 'union' is used to define a single variable",
+          "option2": "A 'struct' is used to define a single variable, a 'union' is used to define a collection of variables",
+          "option3": "A 'struct' is used to define a collection of variables with different types, a 'union' is used to define a collection of variables with the same type",
+          "option4": "A 'struct' is used to define a collection of variables with the same type, a 'union' is used to define a collection of variables with different types",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of the 'enum' keyword in C?",
+          "option1": "To define a set of named constants",
+          "option2": "To define a set of variables",
+          "option3": "To define a set of functions",
+          "option4": "To define a set of macros",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the use of the 'typedef' keyword in C?",
+          "option1": "To define a new data type",
+          "option2": "To define a new function",
+          "option3": "To define a new macro",
+          "option4": "To alias an existing data type",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the difference between a 'header file' and a 'source file' in C?",
+          "option1": "A 'header file' contains function declarations, a 'source file' contains function definitions",
+          "option2": "A 'header file' contains function definitions, a 'source file' contains function declarations",
+          "option3": "A 'header file' contains variable declarations, a 'source file' contains variable definitions",
+          "option4": "A 'header file' contains variable definitions, a 'source file' contains variable declarations",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'makefile' in C?",
+          "option1": "To compile and link the code",
+          "option2": "To create an executable file",
+          "option3": "To run the program",
+          "option4": "To debug the code",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the use of the 'gcc' compiler in C?",
+          "option1": "To compile and link the code",
+          "option2": "To create an executable file",
+          "option3": "To run the program",
+          "option4": "To debug the code",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the difference between a 'kernel mode' and a 'user mode' process in an operating system?",
+          "option1": "A 'kernel mode' process runs with elevated privileges, a 'user mode' process runs with limited privileges",
+          "option2": "A 'kernel mode' process runs with limited privileges, a 'user mode' process runs with elevated privileges",
+          "option3": "A 'kernel mode' process runs in the kernel space, a 'user mode' process runs in the user space",
+          "option4": "A 'kernel mode' process runs in the user space, a 'user mode' process runs in the kernel space",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'interrupt handler' in an operating system?",
+          "option1": "To handle interrupts from hardware devices",
+          "option2": "To handle system calls from user processes",
+          "option3": "To handle network packets",
+          "option4": "To handle disk I/O requests",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the use of the 'scheduler' in an operating system?",
+          "option1": "To schedule processes for execution",
+          "option2": "To allocate memory to processes",
+          "option3": "To handle interrupts from hardware devices",
+          "option4": "To handle system calls from user processes",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the difference between a 'monolithic kernel' and a 'microkernel' in an operating system?",
+          "option1": "A 'monolithic kernel' is a single unit, a 'microkernel' is a collection of small units",
+          "option2": "A 'monolithic kernel' is a collection of small units, a 'microkernel' is a single unit",
+          "option3": "A 'monolithic kernel' runs in kernel mode, a 'microkernel' runs in user mode",
+          "option4": "A 'monolithic kernel' runs in user mode, a 'microkernel' runs in kernel mode",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'boot loader' in an operating system?",
+          "option1": "To load the operating system into memory",
+          "option2": "To schedule processes for execution",
+          "option3": "To handle interrupts from hardware devices",
+          "option4": "To handle system calls from user processes",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the use of the 'BIOS' in a computer?",
+          "option1": "To provide low-level hardware services",
+          "option2": "To provide high-level operating system services",
+          "option3": "To schedule processes for execution",
+          "option4": "To handle interrupts from hardware devices",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the difference between a '32-bit' and a '64-bit' system?",
+          "option1": "A '32-bit' system can address 2^32 bytes of memory, a '64-bit' system can address 2^64 bytes of memory",
+          "option2": "A '32-bit' system can address 2^64 bytes of memory, a '64-bit' system can address 2^32 bytes of memory",
+          "option3": "A '32-bit' system runs in kernel mode, a '64-bit' system runs in user mode",
+          "option4": "A '32-bit' system runs in user mode, a '64-bit' system runs in kernel mode",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'RAM' in a computer?",
+          "option1": "To store the operating system and applications",
+          "option2": "To store data temporarily",
+          "option3": "To store data permanently",
+          "option4": "To store the BIOS",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the use of the 'ROM' in a computer?",
+          "option1": "To store the operating system and applications",
+          "option2": "To store data temporarily",
+          "option3": "To store data permanently",
+          "option4": "To store the BIOS",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the difference between a 'hard drive' and a 'solid-state drive'?",
+          "option1": "A 'hard drive' uses magnetic storage, a 'solid-state drive' uses flash memory",
+          "option2": "A 'hard drive' uses flash memory, a 'solid-state drive' uses magnetic storage",
+          "option3": "A 'hard drive' runs in kernel mode, a 'solid-state drive' runs in user mode",
+          "option4": "A 'hard drive' runs in user mode, a 'solid-state drive' runs in kernel mode",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'CPU' in a computer?",
+          "option1": "To execute instructions and perform calculations",
+          "option2": "To store data temporarily",
+          "option3": "To store data permanently",
+          "option4": "To provide low-level hardware services",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the use of the 'GPU' in a computer?",
+          "option1": "To execute instructions and perform calculations",
+          "option2": "To store data temporarily",
+          "option3": "To store data permanently",
+          "option4": "To provide high-level graphics rendering services",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the difference between a 'bus' and a 'port'?",
+          "option1": "A 'bus' is a high-speed connection, a 'port' is a low-speed connection",
+          "option2": "A 'bus' is a low-speed connection, a 'port' is a high-speed connection",
+          "option3": "A 'bus' is used for data transfer, a 'port' is used for power supply",
+          "option4": "A 'bus' is used for power supply, a 'port' is used for data transfer",
+          "answer": "option1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T00:47:09.126060",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What does CPU stand for?",
+          "option1": "Central Processing Unit",
+          "option2": "Computer Programming Unit",
+          "option3": "Computer Power Unit",
+          "option4": "Computer Processing Unit",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary function of a firewall?",
+          "option1": "To block spam emails",
+          "option2": "To protect a computer from malware",
+          "option3": "To filter incoming and outgoing network traffic",
+          "option4": "To update software automatically",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of the 'return' statement in a C program?",
+          "option1": "To loop back to the beginning of a function",
+          "option2": "To end the execution of a function and return control to the caller",
+          "option3": "To skip to the next iteration of a loop",
+          "option4": "To read user input",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between a compiler and an interpreter?",
+          "option1": "A compiler translates code into machine code, while an interpreter translates code into another programming language",
+          "option2": "A compiler translates code into machine code, while an interpreter does not",
+          "option3": "A compiler translates code into another programming language, while an interpreter translates code into machine code",
+          "option4": "A compiler and an interpreter are the same thing",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'main' function in a C program?",
+          "option1": "To declare variables",
+          "option2": "To define a function that can be called from other parts of the program",
+          "option3": "To control the flow of the program",
+          "option4": "To end the execution of the program",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'int' and 'char' in C?",
+          "option1": "int is a variable that can hold a single character, while char is a variable that can hold an integer",
+          "option2": "int is a variable that can hold an integer, while char is a variable that can hold a single character",
+          "option3": "int and char are the same thing",
+          "option4": "int and char refer to different data types",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the 'printf' function in C?",
+          "option1": "To read user input",
+          "option2": "To print output to the screen",
+          "option3": "To declare variables",
+          "option4": "To end the execution of the program",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'array' and 'vector' in C?",
+          "option1": "array is a static data structure, while vector is a dynamic data structure",
+          "option2": "array is a dynamic data structure, while vector is a static data structure",
+          "option3": "array and vector are the same thing",
+          "option4": "array and vector refer to different programming languages",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the ' malloc' function in C?",
+          "option1": "To declare variables",
+          "option2": "To allocate memory for a variable",
+          "option3": "To end the execution of the program",
+          "option4": "To print output to the screen",
+          "answer": "option2"
+        },
+        {
+          "question": "Who is the creator of the C programming language?",
+          "option1": "Dennis Ritchie",
+          "option2": "Bjarne Stroustrup",
+          "option3": "Guido van Rossum",
+          "option4": "Brian Kernighan",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'struct' keyword in C?",
+          "option1": "To declare variables",
+          "option2": "To define a custom data type",
+          "option3": "To end the execution of the program",
+          "option4": "To print output to the screen",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'static' and 'extern' in C?",
+          "option1": "static is a keyword that declares a global variable, while extern is a keyword that declares a local variable",
+          "option2": "static is a keyword that declares a local variable, while extern is a keyword that declares a global variable",
+          "option3": "static and extern are the same thing",
+          "option4": "static and extern refer to different programming languages",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the ' while' loop in C?",
+          "option1": "To iterate over a fixed number of iterations",
+          "option2": "To iterate over a variable number of iterations",
+          "option3": "To end the execution of the program",
+          "option4": "To print output to the screen",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'for' and 'while' loops in C?",
+          "option1": "for is a loop that iterates over a fixed number of iterations, while while is a loop that iterates over a variable number of iterations",
+          "option2": "for is a loop that iterates over a variable number of iterations, while while is a loop that iterates over a fixed number of iterations",
+          "option3": "for and while are the same thing",
+          "option4": "for and while refer to different programming languages",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'switch' statement in C?",
+          "option1": "To declare variables",
+          "option2": "To control the flow of the program based on the value of a variable",
+          "option3": "To end the execution of the program",
+          "option4": "To print output to the screen",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'break' and 'continue' statements in C?",
+          "option1": "break is a statement that ends the execution of the current loop, while continue is a statement that skips to the next iteration of the loop",
+          "option2": "break is a statement that skips to the next iteration of the loop, while continue is a statement that ends the execution of the current loop",
+          "option3": "break and continue are the same thing",
+          "option4": "break and continue refer to different programming languages",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'goto' statement in C?",
+          "option1": "To declare variables",
+          "option2": "To control the flow of the program",
+          "option3": "To end the execution of the program",
+          "option4": "To print output to the screen",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'signed' and 'unsigned' data types in C?",
+          "option1": "signed is a data type that can hold negative numbers, while unsigned is a data type that can hold only positive numbers",
+          "option2": "signed is a data type that can hold only positive numbers, while unsigned is a data type that can hold negative numbers",
+          "option3": "signed and unsigned are the same thing",
+          "option4": "signed and unsigned refer to different programming languages",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'sizeof' operator in C?",
+          "option1": "To declare variables",
+          "option2": "To determine the size of a variable",
+          "option3": "To end the execution of the program",
+          "option4": "To print output to the screen",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'const' and 'volatile' keywords in C?",
+          "option1": "const is a keyword that declares a variable that cannot be modified, while volatile is a keyword that declares a variable that can be modified",
+          "option2": "const is a keyword that declares a variable that can be modified, while volatile is a keyword that declares a variable that cannot be modified",
+          "option3": "const and volatile are the same thing",
+          "option4": "const and volatile refer to different programming languages",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'typedef' keyword in C?",
+          "option1": "To declare variables",
+          "option2": "To create an alias for a data type",
+          "option3": "To end the execution of the program",
+          "option4": "To print output to the screen",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'auto' and 'register' keywords in C?",
+          "option1": "auto is a keyword that declares a variable that is stored in memory, while register is a keyword that declares a variable that is stored in a register",
+          "option2": "auto is a keyword that declares a variable that is stored in a register, while register is a keyword that declares a variable that is stored in memory",
+          "option3": "auto and register are the same thing",
+          "option4": "auto and register refer to different programming languages",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'extern' keyword in C?",
+          "option1": "To declare variables",
+          "option2": "To declare a global variable that can be accessed from other files",
+          "option3": "To end the execution of the program",
+          "option4": "To print output to the screen",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'static' and 'extern' variables in C?",
+          "option1": "static is a variable that is stored in memory, while extern is a variable that is stored in a register",
+          "option2": "static is a variable that is stored in a register, while extern is a variable that is stored in memory",
+          "option3": "static and extern are the same thing",
+          "option4": "static and extern refer to different programming languages",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'struct' keyword in C?",
+          "option1": "To declare variables",
+          "option2": "To define a custom data type",
+          "option3": "To end the execution of the program",
+          "option4": "To print output to the screen",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'union' and 'struct' in C?",
+          "option1": "union is a data type that can hold multiple values, while struct is a data type that can hold a single value",
+          "option2": "union is a data type that can hold a single value, while struct is a data type that can hold multiple values",
+          "option3": "union and struct are the same thing",
+          "option4": "union and struct refer to different programming languages",
+          "answer": "option2"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T00:47:24.261269",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What is the primary function of a compiler?",
+          "option1": "To execute a program",
+          "option2": "To translate source code into machine code",
+          "option3": "To debug a program",
+          "option4": "To store a program",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between hardware and software?",
+          "option1": "Hardware is a type of software, and software is a type of hardware",
+          "option2": "Hardware refers to the physical components of a computer, while software refers to the programs that run on it",
+          "option3": "Hardware is the operating system, and software is the app",
+          "option4": "Hardware is a type of operating system, and software is a type of program",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of a variable in a program?",
+          "option1": "To store a value",
+          "option2": "To execute a program",
+          "option3": "To debug a program",
+          "option4": "To store a program",
+          "answer": "option1"
+        },
+        {
+          "question": "Which of the following is a C programming language keyword?",
+          "option1": "for",
+          "option2": "while",
+          "option3": "if",
+          "option4": "All of the above",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the use of the 'main' function in C?",
+          "option1": "It is used to store a value",
+          "option2": "It is used to execute a program",
+          "option3": "It is the entry point of a C program",
+          "option4": "It is used to debug a program",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of a loop in a program?",
+          "option1": "To execute a program",
+          "option2": "To store a value",
+          "option3": "To repeat a set of instructions",
+          "option4": "To debug a program",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the use of the 'printf' function in C?",
+          "option1": "It is used to store a value",
+          "option2": "It is used to execute a program",
+          "option3": "It is used to print output to the screen",
+          "option4": "It is used to debug a program",
+          "answer": "option3"
+        },
+        {
+          "question": "Which of the following is a type of data in C?",
+          "option1": "Integer",
+          "option2": "Float",
+          "option3": "Both of the above",
+          "option4": "None of the above",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the use of the 'if' statement in C?",
+          "option1": "It is used to store a value",
+          "option2": "It is used to execute a program",
+          "option3": "It is used to make decisions in a program",
+          "option4": "It is used to debug a program",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of a function in a program?",
+          "option1": "To store a value",
+          "option2": "To execute a program",
+          "option3": "To perform a specific task",
+          "option4": "To debug a program",
+          "answer": "option3"
+        },
+        {
+          "question": "Which of the following is a C programming language library?",
+          "option1": "stdio.h",
+          "option2": "stdlib.h",
+          "option3": "string.h",
+          "option4": "All of the above",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the use of the 'while' loop in C?",
+          "option1": "It is used to store a value",
+          "option2": "It is used to execute a program",
+          "option3": "It is used to repeat a set of instructions while a condition is true",
+          "option4": "It is used to debug a program",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of a pointer in a program?",
+          "option1": "To store a value",
+          "option2": "To execute a program",
+          "option3": "To store the memory address of a variable",
+          "option4": "To debug a program",
+          "answer": "option3"
+        },
+        {
+          "question": "Which of the following is a C programming language operator?",
+          "option1": "=",
+          "option2": "+",
+          "option3": "*",
+          "option4": "All of the above",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the use of the 'for' loop in C?",
+          "option1": "It is used to store a value",
+          "option2": "It is used to execute a program",
+          "option3": "It is used to repeat a set of instructions for a specified number of times",
+          "option4": "It is used to debug a program",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of a do-while loop in a program?",
+          "option1": "To store a value",
+          "option2": "To execute a program",
+          "option3": "To repeat a set of instructions while a condition is true",
+          "option4": "To debug a program",
+          "answer": "option3"
+        },
+        {
+          "question": "Which of the following is a type of algorithm?",
+          "option1": "Bubble sort",
+          "option2": "Selection sort",
+          "option3": "Both of the above",
+          "option4": "None of the above",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the use of the 'return' statement in C?",
+          "option1": "It is used to store a value",
+          "option2": "It is used to execute a program",
+          "option3": "It is used to exit a function and return a value",
+          "option4": "It is used to debug a program",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of a struct in a program?",
+          "option1": "To store a value",
+          "option2": "To execute a program",
+          "option3": "To store a collection of variables of different data types",
+          "option4": "To debug a program",
+          "answer": "option3"
+        },
+        {
+          "question": "Which of the following is a C programming language header file?",
+          "option1": "stdio.h",
+          "option2": "stdlib.h",
+          "option3": "string.h",
+          "option4": "All of the above",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the use of the 'typedef' keyword in C?",
+          "option1": "It is used to store a value",
+          "option2": "It is used to execute a program",
+          "option3": "It is used to create an alias for a data type",
+          "option4": "It is used to debug a program",
+          "answer": "option3"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T00:47:45.153385",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What does CPU stand for?",
+          "option1": "Control Processing Unit",
+          "option2": "Central Processing Unit",
+          "option3": "Computer Processing Unit",
+          "option4": "Control Processing System",
+          "answer": "option2"
+        },
+        {
+          "question": "What programming language is used for Android app development?",
+          "option1": "Java",
+          "option2": "C++",
+          "option3": "Python",
+          "option4": "JavaScript",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the founder of Google?",
+          "option1": "Bill Gates",
+          "option2": "Steve Jobs",
+          "option3": "Mark Zuckerberg",
+          "option4": "Larry Page",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the primary function of the operating system?",
+          "option1": "To process user input",
+          "option2": "To manage hardware resources",
+          "option3": "To provide security features",
+          "option4": "All of the above",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the most widely used database management system?",
+          "option1": "MySQL",
+          "option2": "Microsoft SQL Server",
+          "option3": "Oracle",
+          "option4": "IBM DB2",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of a compiler?",
+          "option1": "To execute code",
+          "option2": "To translate code into machine language",
+          "option3": "To optimize code",
+          "option4": "To debug code",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between a variable and a constant?",
+          "option1": "A constant is a fixed value, while a variable is a dynamic value",
+          "option2": "A variable is a fixed value, while a constant is a dynamic value",
+          "option3": "A variable is a value that can be changed, while a constant is a value that cannot be changed",
+          "option4": "None of the above",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of the `main` function in a C program?",
+          "option1": "To declare global variables",
+          "option2": "To define the program's entry point",
+          "option3": "To handle user input",
+          "option4": "To display output",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the use of the `printf` function in C?",
+          "option1": "To read input from the user",
+          "option2": "To display output on the screen",
+          "option3": "To perform arithmetic operations",
+          "option4": "To compare values",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the `#include` directive in C?",
+          "option1": "To import libraries",
+          "option2": "To exclude files",
+          "option3": "To define macros",
+          "option4": "To comment out code",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the difference between `int` and `float` data types in C?",
+          "option1": "Int is a 32-bit data type, while float is a 64-bit data type",
+          "option2": "Int is a 64-bit data type, while float is a 32-bit data type",
+          "option3": "Int is used for integers, while float is used for decimal numbers",
+          "option4": "None of the above",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of the `for` loop in C?",
+          "option1": "To iterate over a range of values",
+          "option2": "To execute a block of code repeatedly",
+          "option3": "To compare values",
+          "option4": "To read input from the user",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the use of the `while` loop in C?",
+          "option1": "To iterate over a range of values",
+          "option2": "To execute a block of code repeatedly",
+          "option3": "To compare values",
+          "option4": "To read input from the user",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the `if` statement in C?",
+          "option1": "To execute a block of code when a condition is true",
+          "option2": "To execute a block of code when a condition is false",
+          "option3": "To compare values",
+          "option4": "To read input from the user",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the use of the `switch` statement in C?",
+          "option1": "To execute a block of code when a condition is true",
+          "option2": "To execute a block of code when a condition is false",
+          "option3": "To compare values",
+          "option4": "To execute a block of code based on a value",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the difference between `==` and `!=` operators in C?",
+          "option1": "== is used for equality, while != is used for inequality",
+          "option2": "== is used for inequality, while != is used for equality",
+          "option3": "== is used for comparison, while != is used for assignment",
+          "option4": "None of the above",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the `break` statement in C?",
+          "option1": "To exit a loop",
+          "option2": "To continue a loop",
+          "option3": "To skip a statement",
+          "option4": "To read input from the user",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the use of the `continue` statement in C?",
+          "option1": "To exit a loop",
+          "option2": "To continue a loop",
+          "option3": "To skip a statement",
+          "option4": "To read input from the user",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the `return` statement in C?",
+          "option1": "To exit a function",
+          "option2": "To continue a function",
+          "option3": "To skip a statement",
+          "option4": "To read input from the user",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the use of the `goto` statement in C?",
+          "option1": "To exit a loop",
+          "option2": "To continue a loop",
+          "option3": "To skip a statement",
+          "option4": "To jump to a label",
+          "answer": "option4"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T17:10:04.517898",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What is the primary function of a compiler?",
+          "option1": "Translates code into machine language",
+          "option2": "Renames variables and functions",
+          "option3": "Checks for syntax errors",
+          "option4": "Optimizes code for performance",
+          "answer": "option1"
+        },
+        {
+          "question": "Which programming language is known for its simplicity and ease of use?",
+          "option1": "Python",
+          "option2": "Java",
+          "option3": "C++",
+          "option4": "JavaScript",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the difference between a variable and a constant?",
+          "option1": "A variable can be changed, while a constant cannot",
+          "option2": "A variable is used for input, while a constant is used for output",
+          "option3": "A variable is used for output, while a constant is used for input",
+          "option4": "A variable is a single character, while a constant is a string",
+          "answer": "option1"
+        },
+        {
+          "question": "Which of the following is a data type in C?",
+          "option1": "char, int, float, string",
+          "option2": "int, float, double, boolean",
+          "option3": "char, int, float, double",
+          "option4": "int, double, boolean, string",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of the main() function in C?",
+          "option1": "To declare global variables",
+          "option2": "To define the program's entry point",
+          "option3": "To optimize code for performance",
+          "option4": "To check for syntax errors",
+          "answer": "option2"
+        },
+        {
+          "question": "Which of the following is a type of error in programming?",
+          "option1": "Syntax error",
+          "option2": "Logical error",
+          "option3": "Runtime error",
+          "option4": "All of the above",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the difference between a function and a procedure?",
+          "option1": "A function can return a value, while a procedure cannot",
+          "option2": "A function is used for input, while a procedure is used for output",
+          "option3": "A function is used for output, while a procedure is used for input",
+          "option4": "A function is a reusable block of code, while a procedure is a single statement",
+          "answer": "option1"
+        },
+        {
+          "question": "Which programming language is used for web development?",
+          "option1": "Python",
+          "option2": "Java",
+          "option3": "JavaScript",
+          "option4": "All of the above",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the purpose of the #include directive in C?",
+          "option1": "To include a library",
+          "option2": "To exclude a library",
+          "option3": "To define a macro",
+          "option4": "To comment out code",
+          "answer": "option1"
+        },
+        {
+          "question": "Which of the following is a type of loop in C?",
+          "option1": "For loop",
+          "option2": "While loop",
+          "option3": "Do-while loop",
+          "option4": "All of the above",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the purpose of the printf() function in C?",
+          "option1": "To read input from the user",
+          "option2": "To write output to the screen",
+          "option3": "To declare global variables",
+          "option4": "To check for syntax errors",
+          "answer": "option2"
+        },
+        {
+          "question": "Which of the following is a type of data storage in C?",
+          "option1": "Array",
+          "option2": "Linked list",
+          "option3": "Stack",
+          "option4": "Queue",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the scanf() function in C?",
+          "option1": "To write output to the screen",
+          "option2": "To read input from the user",
+          "option3": "To declare global variables",
+          "option4": "To check for syntax errors",
+          "answer": "option2"
+        },
+        {
+          "question": "Which of the following is a type of algorithm in C?",
+          "option1": "Linear search",
+          "option2": "Binary search",
+          "option3": "Bubble sort",
+          "option4": "All of the above",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the purpose of the malloc() function in C?",
+          "option1": "To declare global variables",
+          "option2": "To allocate memory",
+          "option3": "To deallocate memory",
+          "option4": "To check for syntax errors",
+          "answer": "option2"
+        },
+        {
+          "question": "Which of the following is a type of exception handling in C?",
+          "option1": "Try-catch block",
+          "option2": "Error handling",
+          "option3": "Exception handling",
+          "option4": "All of the above",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the purpose of the exit() function in C?",
+          "option1": "To write output to the screen",
+          "option2": "To terminate the program",
+          "option3": "To declare global variables",
+          "option4": "To check for syntax errors",
+          "answer": "option2"
+        },
+        {
+          "question": "Which of the following is a type of file manipulation in C?",
+          "option1": "Reading a file",
+          "option2": "Writing a file",
+          "option3": "Deleting a file",
+          "option4": "All of the above",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the purpose of the fopen() function in C?",
+          "option1": "To declare global variables",
+          "option2": "To open a file",
+          "option3": "To close a file",
+          "option4": "To check for syntax errors",
+          "answer": "option2"
+        },
+        {
+          "question": "Which of the following is a type of memory management in C?",
+          "option1": "Memory allocation",
+          "option2": "Memory deallocation",
+          "option3": "Memory reallocation",
+          "option4": "All of the above",
+          "answer": "option4"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T17:10:09.525809",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What is the primary function of the CPU?",
+          "option1": "To store data",
+          "option2": "To process data",
+          "option3": "To display data",
+          "option4": "To connect devices",
+          "answer": "option2"
+        },
+        {
+          "question": "What programming language is used for web development by Google?",
+          "option1": "Python",
+          "option2": "Java",
+          "option3": "JavaScript",
+          "option4": "C++",
+          "answer": "option3"
+        },
+        {
+          "question": "Who is the co-founder of Microsoft?",
+          "option1": "Bill Gates",
+          "option2": "Steve Jobs",
+          "option3": "Mark Zuckerberg",
+          "option4": "Larry Ellison",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the popular operating system developed by Linus Torvalds?",
+          "option1": "Windows",
+          "option2": "macOS",
+          "option3": "Linux",
+          "option4": "Android",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the primary function of the RAM in a computer?",
+          "option1": "To store data permanently",
+          "option2": "To process data",
+          "option3": "To temporarily store data",
+          "option4": "To display data",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the name of the popular coding community platform?",
+          "option1": "GitHub",
+          "option2": "Stack Overflow",
+          "option3": "Reddit",
+          "option4": "Quora",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the co-founder of Facebook?",
+          "option1": "Mark Zuckerberg",
+          "option2": "Bill Gates",
+          "option3": "Steve Jobs",
+          "option4": "Larry Ellison",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the popular programming language for Android app development?",
+          "option1": "Java",
+          "option2": "Python",
+          "option3": "C++",
+          "option4": "JavaScript",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the name of the popular integrated development environment (IDE) for C programming?",
+          "option1": "Visual Studio Code",
+          "option2": "Eclipse",
+          "option3": "CodeBlocks",
+          "option4": "NetBeans",
+          "answer": "option3"
+        },
+        {
+          "question": "Who is the inventor of the World Wide Web?",
+          "option1": "Tim Berners-Lee",
+          "option2": "Bill Gates",
+          "option3": "Steve Jobs",
+          "option4": "Larry Ellison",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary function of the mouse in a computer?",
+          "option1": "To store data",
+          "option2": "To display data",
+          "option3": "To control the cursor",
+          "option4": "To connect devices",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the popular programming language used for machine learning?",
+          "option1": "Python",
+          "option2": "Java",
+          "option3": "C++",
+          "option4": "JavaScript",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the name of the popular operating system for Mac devices?",
+          "option1": "Windows",
+          "option2": "macOS",
+          "option3": "Linux",
+          "option4": "Android",
+          "answer": "option2"
+        },
+        {
+          "question": "Who is the co-founder of Google?",
+          "option1": "Larry Page",
+          "option2": "Bill Gates",
+          "option3": "Steve Jobs",
+          "option4": "Larry Ellison",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary function of the keyboard in a computer?",
+          "option1": "To store data",
+          "option2": "To display data",
+          "option3": "To enter data",
+          "option4": "To connect devices",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the popular programming language used for web development by Google?",
+          "option1": "Python",
+          "option2": "Java",
+          "option3": "JavaScript",
+          "option4": "C++",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the name of the popular IDE for C programming?",
+          "option1": "Visual Studio",
+          "option2": "Eclipse",
+          "option3": "CodeBlocks",
+          "option4": "NetBeans",
+          "answer": "option3"
+        },
+        {
+          "question": "Who is the inventor of the first successful computer bug?",
+          "option1": "Ada Lovelace",
+          "option2": "Alan Turing",
+          "option3": "Grace Hopper",
+          "option4": "Steve Jobs",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the primary function of the hard drive in a computer?",
+          "option1": "To process data",
+          "option2": "To store data permanently",
+          "option3": "To display data",
+          "option4": "To connect devices",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the popular programming language used for game development?",
+          "option1": "Python",
+          "option2": "Java",
+          "option3": "C++",
+          "option4": "JavaScript",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the name of the popular software for video editing?",
+          "option1": "Adobe Premiere",
+          "option2": "Final Cut Pro",
+          "option3": "DaVinci Resolve",
+          "option4": "Avid Media Composer",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary function of the graphics card in a computer?",
+          "option1": "To store data",
+          "option2": "To process data",
+          "option3": "To display graphics",
+          "option4": "To connect devices",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the popular programming language used for data analysis?",
+          "option1": "Python",
+          "option2": "Java",
+          "option3": "R",
+          "option4": "C++",
+          "answer": "option1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T17:10:14.418916",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What is the full form of HTML?",
+          "option1": "Hyper Text Markup Language",
+          "option2": "Hypertext Machine Language",
+          "option3": "Hyper Text Magic Language",
+          "option4": "Hypertext Machine Tool",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the founder of Google?",
+          "option1": "Larry Page and Sergey Brin",
+          "option2": "Bill Gates and Steve Jobs",
+          "option3": "Mark Zuckerberg and Elon Musk",
+          "option4": "Jeff Bezos and Richard Branson",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary function of RAM?",
+          "option1": "Storage of data",
+          "option2": "Execution of programs",
+          "option3": "Temporary storage of data",
+          "option4": "Permanently storing data",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the most widely used programming language?",
+          "option1": "Python",
+          "option2": "Java",
+          "option3": "C++",
+          "option4": "JavaScript",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary function of a compiler?",
+          "option1": "Translation of code into machine language",
+          "option2": "Execution of code",
+          "option3": "Storage of code",
+          "option4": "Debugging of code",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the inventor of the programming language C?",
+          "option1": "Dennis Ritchie",
+          "option2": "Brian Kernighan",
+          "option3": "Alan Turing",
+          "option4": "Charles Babbage",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the main function in C?",
+          "option1": "To define a variable",
+          "option2": "To execute a program",
+          "option3": "To serve as the entry point of a program",
+          "option4": "To create an array",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the syntax for printing a message to the console in C?",
+          "option1": "printf('Hello World!');",
+          "option2": "print('Hello World!');",
+          "option3": "System.out.println('Hello World!');",
+          "option4": "Console.WriteLine('Hello World!');",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the #include directive in C?",
+          "option1": "To import a library",
+          "option2": "To define a function",
+          "option3": "To include a header file",
+          "option4": "To create a variable",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the syntax for declaring a variable in C?",
+          "option1": "int x = 5;",
+          "option2": "let x = 5;",
+          "option3": "var x = 5;",
+          "option4": "char x = 5;",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the founder of the programming language Python?",
+          "option1": "Guido van Rossum",
+          "option2": "Tim Berners-Lee",
+          "option3": "James Gosling",
+          "option4": "Ramalingaswamy",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the while loop in C?",
+          "option1": "To execute a program repeatedly",
+          "option2": "To execute a program conditionally",
+          "option3": "To execute a program until a condition is met",
+          "option4": "To execute a program in a loop",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the syntax for defining a function in C?",
+          "option1": "int add(int x, int y) { return x + y; }",
+          "option2": "function add(x, y) { return x + y; }",
+          "option3": "def add(x, y): return x + y",
+          "option4": "Procedure add(x, y) { return x + y; }",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the if statement in C?",
+          "option1": "To execute a program conditionally",
+          "option2": "To execute a program repeatedly",
+          "option3": "To execute a program in a loop",
+          "option4": "To execute a program until a condition is met",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the syntax for declaring an array in C?",
+          "option1": "int arr[5];",
+          "option2": "let arr = [5];",
+          "option3": "var arr = [5];",
+          "option4": "char arr[5];",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the for loop in C?",
+          "option1": "To execute a program repeatedly",
+          "option2": "To execute a program conditionally",
+          "option3": "To execute a program in a loop",
+          "option4": "To execute a program until a condition is met",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the syntax for defining a pointer in C?",
+          "option1": "int *ptr;",
+          "option2": "int ptr;",
+          "option3": "int &ptr;",
+          "option4": "int @ptr;",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the inventor of the programming language Java?",
+          "option1": "James Gosling",
+          "option2": "Sun Microsystems",
+          "option3": "Bjarne Stroustrup",
+          "option4": "Guido van Rossum",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the switch statement in C?",
+          "option1": "To execute a program conditionally",
+          "option2": "To execute a program repeatedly",
+          "option3": "To execute a program in a loop",
+          "option4": "To execute a program based on a value",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the syntax for declaring a struct in C?",
+          "option1": "struct Person { char name[20]; int age; };",
+          "option2": "struct Person name[20]; int age;",
+          "option3": "struct Person(name, age);",
+          "option4": "typedef struct Person { char name[20]; int age; };",
+          "answer": "option1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T17:10:18.979648",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What is the primary function of a computer's CPU?",
+          "option1": "To store data",
+          "option2": "To process data",
+          "option3": "To display output",
+          "option4": "To connect to the internet",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the most widely used programming language?",
+          "option1": "Python",
+          "option2": "Java",
+          "option3": "JavaScript",
+          "option4": "C++",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the founder of Google?",
+          "option1": "Larry Page",
+          "option2": "Sergey Brin",
+          "option3": "Bill Gates",
+          "option4": "Steve Jobs",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary purpose of a compiler?",
+          "option1": "To translate high-level code to low-level code",
+          "option2": "To translate low-level code to high-level code",
+          "option3": "To debug code",
+          "option4": "To execute code",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the name of the popular open-source operating system?",
+          "option1": "Ubuntu",
+          "option2": "Windows",
+          "option3": "MacOS",
+          "option4": "Linux",
+          "answer": "option4"
+        },
+        {
+          "question": "Who is the creator of the C programming language?",
+          "option1": "Dennis Ritchie",
+          "option2": "Bjarne Stroustrup",
+          "option3": "James Gosling",
+          "option4": "Guido van Rossum",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary function of a database?",
+          "option1": "To store data",
+          "option2": "To process data",
+          "option3": "To display output",
+          "option4": "To connect to the internet",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the name of the popular web browser?",
+          "option1": "Google Chrome",
+          "option2": "Mozilla Firefox",
+          "option3": "Microsoft Edge",
+          "option4": "Safari",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the creator of the JavaScript programming language?",
+          "option1": "Brendan Eich",
+          "option2": "Dennis Ritchie",
+          "option3": "James Gosling",
+          "option4": "Guido van Rossum",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary function of a firewall?",
+          "option1": "To block unauthorized access",
+          "option2": "To allow authorized access",
+          "option3": "To store data",
+          "option4": "To process data",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the name of the popular integrated development environment (IDE)?",
+          "option1": "Eclipse",
+          "option2": "Visual Studio",
+          "option3": "IntelliJ IDEA",
+          "option4": "NetBeans",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the creator of the Python programming language?",
+          "option1": "Guido van Rossum",
+          "option2": "Dennis Ritchie",
+          "option3": "James Gosling",
+          "option4": "Bjarne Stroustrup",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary function of a network switch?",
+          "option1": "To connect devices to the internet",
+          "option2": "To disconnect devices from the network",
+          "option3": "To forward data packets",
+          "option4": "To store data",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the name of the popular programming language used for Android app development?",
+          "option1": "Java",
+          "option2": "C++",
+          "option3": "JavaScript",
+          "option4": "Kotlin",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the founder of Oracle?",
+          "option1": "Larry Ellison",
+          "option2": "Safra Catz",
+          "option3": "Mark Hurd",
+          "option4": "Steve Jobs",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary function of a keyboard?",
+          "option1": "To display output",
+          "option2": "To process data",
+          "option3": "To input data",
+          "option4": "To connect to the internet",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the name of the popular programming language used for web development?",
+          "option1": "JavaScript",
+          "option2": "Python",
+          "option3": "Java",
+          "option4": "C++",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the creator of the C++ programming language?",
+          "option1": "Bjarne Stroustrup",
+          "option2": "Dennis Ritchie",
+          "option3": "James Gosling",
+          "option4": "Guido van Rossum",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary function of a printer?",
+          "option1": "To display output",
+          "option2": "To process data",
+          "option3": "To print documents",
+          "option4": "To connect to the internet",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the name of the popular operating system used by Apple?",
+          "option1": "Windows",
+          "option2": "macOS",
+          "option3": "Linux",
+          "option4": "Android",
+          "answer": "option2"
+        },
+        {
+          "question": "Who is the founder of Amazon?",
+          "option1": "Jeff Bezos",
+          "option2": "Bill Gates",
+          "option3": "Mark Zuckerberg",
+          "option4": "Larry Ellison",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary function of a scanner?",
+          "option1": "To display output",
+          "option2": "To process data",
+          "option3": "To scan documents",
+          "option4": "To connect to the internet",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the name of the popular programming language used for data analysis?",
+          "option1": "Python",
+          "option2": "R",
+          "option3": "Java",
+          "option4": "C++",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the creator of the SQL programming language?",
+          "option1": "Donald Chamberlin",
+          "option2": "Dennis Ritchie",
+          "option3": "James Gosling",
+          "option4": "Guido van Rossum",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary function of a router?",
+          "option1": "To connect devices to the internet",
+          "option2": "To disconnect devices from the network",
+          "option3": "To forward data packets",
+          "option4": "To store data",
+          "answer": "option3"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T17:10:23.571368",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What is the primary function of a firewall?",
+          "option1": "To block malicious software",
+          "option2": "To filter incoming and outgoing network traffic",
+          "option3": "To speed up internet connection",
+          "option4": "To protect against viruses",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the main difference between a BIOS and a UEFI?",
+          "option1": "BIOS is faster than UEFI",
+          "option2": "BIOS is older than UEFI",
+          "option3": "BIOS is used for laptops, UEFI is used for desktops",
+          "option4": "BIOS is more secure than UEFI",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of a compiler in C programming?",
+          "option1": "To execute the code",
+          "option2": "To translate the code from high-level language to machine language",
+          "option3": "To debug the code",
+          "option4": "To run the code on a different platform",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the use of the 'printf' function in C?",
+          "option1": "To read user input",
+          "option2": "To write output to the screen",
+          "option3": "To check for errors",
+          "option4": "To get system date and time",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the '#include' directive in C?",
+          "option1": "To import libraries",
+          "option2": "To import header files",
+          "option3": "To import functions",
+          "option4": "To import variables",
+          "answer": "option2"
+        },
+        {
+          "question": "What is a 'while' loop in C?",
+          "option1": "A loop that repeats until a condition is true",
+          "option2": "A loop that repeats until a condition is false",
+          "option3": "A loop that repeats a fixed number of times",
+          "option4": "A loop that repeats until a user input",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the difference between '==' and '!=' in C?",
+          "option1": "Both are used for equality and inequality checks",
+          "option2": "One is used for equality checks and the other for inequality checks",
+          "option3": "One is used for assignment and the other for comparison",
+          "option4": "Both are used for assignment and comparison",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the 'main' function in C?",
+          "option1": "To import libraries",
+          "option2": "To execute the code",
+          "option3": "To start the program",
+          "option4": "To get user input",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the use of the 'scanf' function in C?",
+          "option1": "To read output from the screen",
+          "option2": "To read user input",
+          "option3": "To write output to the screen",
+          "option4": "To get system date and time",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the 'if' statement in C?",
+          "option1": "To repeat a block of code",
+          "option2": "To check for a condition and execute code if true",
+          "option3": "To get user input",
+          "option4": "To write output to the screen",
+          "answer": "option2"
+        },
+        {
+          "question": "Who is the founder of C programming language?",
+          "option1": "Dennis Ritchie",
+          "option2": "Bjarne Stroustrup",
+          "option3": "Guido van Rossum",
+          "option4": "Brian Kernighan",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary function of a database?",
+          "option1": "To store and retrieve data",
+          "option2": "To filter incoming and outgoing network traffic",
+          "option3": "To speed up internet connection",
+          "option4": "To protect against viruses",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the use of the 'for' loop in C?",
+          "option1": "To repeat a block of code a fixed number of times",
+          "option2": "To check for a condition and execute code if true",
+          "option3": "To get user input",
+          "option4": "To write output to the screen",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'switch' statement in C?",
+          "option1": "To repeat a block of code",
+          "option2": "To check for a condition and execute code if true",
+          "option3": "To get user input",
+          "option4": "To execute different blocks of code based on a value",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the difference between 'rand()' and 'srand()' in C?",
+          "option1": "Both are used for generating random numbers",
+          "option2": "One is used for generating random numbers and the other for seeding the random number generator",
+          "option3": "One is used for generating random numbers and the other for getting system date and time",
+          "option4": "Both are used for getting system date and time",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the use of the 'gets()' function in C?",
+          "option1": "To read output from the screen",
+          "option2": "To read user input",
+          "option3": "To write output to the screen",
+          "option4": "To get system date and time",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the 'break' statement in C?",
+          "option1": "To repeat a block of code",
+          "option2": "To check for a condition and execute code if true",
+          "option3": "To get user input",
+          "option4": "To exit a loop or switch statement",
+          "answer": "option4"
+        },
+        {
+          "question": "Who is the inventor of the internet?",
+          "option1": "Vint Cerf",
+          "option2": "Jon Postel",
+          "option3": "Larry Roberts",
+          "option4": "Leonard Kleinrock",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary function of a router?",
+          "option1": "To filter incoming and outgoing network traffic",
+          "option2": "To speed up internet connection",
+          "option3": "To protect against viruses",
+          "option4": "To connect multiple networks",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the use of the 'malloc()' function in C?",
+          "option1": "To allocate memory on the stack",
+          "option2": "To allocate memory on the heap",
+          "option3": "To deallocate memory",
+          "option4": "To get system date and time",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the 'free()' function in C?",
+          "option1": "To allocate memory on the heap",
+          "option2": "To deallocate memory",
+          "option3": "To get user input",
+          "option4": "To write output to the screen",
+          "answer": "option2"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T17:10:27.949790",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What is the most widely used programming language?",
+          "option1": "Python",
+          "option2": "Java",
+          "option3": "C++",
+          "option4": "JavaScript",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the founder of Google?",
+          "option1": "Sergey Brin",
+          "option2": "Larry Page",
+          "option3": "Bill Gates",
+          "option4": "Mark Zuckerberg",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the 'main' function in programming?",
+          "option1": "To declare variables",
+          "option2": "To control program flow",
+          "option3": "To execute program",
+          "option4": "To handle exceptions",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the difference between '==' and '==' in C?",
+          "option1": "Both are used for comparison",
+          "option2": "'==' checks for equality, '==' checks for identity",
+          "option3": "'==' checks for identity, '==' checks for equality",
+          "option4": "Both are used for assignment",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the 'printf' function in C?",
+          "option1": "To read user input",
+          "option2": "To print output on the screen",
+          "option3": "To control program flow",
+          "option4": "To handle exceptions",
+          "answer": "option2"
+        },
+        {
+          "question": "Who is the founder of Microsoft?",
+          "option1": "Bill Gates",
+          "option2": "Paul Allen",
+          "option3": "Steve Jobs",
+          "option4": "Mark Zuckerberg",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the most popular database management system?",
+          "option1": "MySQL",
+          "option2": "Oracle",
+          "option3": "Microsoft SQL Server",
+          "option4": "PostgreSQL",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'if-else' statement in programming?",
+          "option1": "To declare variables",
+          "option2": "To control program flow",
+          "option3": "To execute program",
+          "option4": "To handle exceptions",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'int' and 'float' in C?",
+          "option1": "Both are used for storing integers",
+          "option2": "Both are used for storing decimal numbers",
+          "option3": "int is used for storing integers, float is used for storing decimal numbers",
+          "option4": "Both are used for storing characters",
+          "answer": "option3"
+        },
+        {
+          "question": "Who is the founder of Facebook?",
+          "option1": "Mark Zuckerberg",
+          "option2": "Sergey Brin",
+          "option3": "Larry Page",
+          "option4": "Bill Gates",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'switch' statement in programming?",
+          "option1": "To declare variables",
+          "option2": "To control program flow",
+          "option3": "To execute program",
+          "option4": "To handle exceptions",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'break' and 'continue' in C?",
+          "option1": "Both are used to end the loop",
+          "option2": "break is used to end the loop, continue is used to skip the current iteration",
+          "option3": "continue is used to end the loop, break is used to skip the current iteration",
+          "option4": "Both are used to skip the current iteration",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the 'for' loop in programming?",
+          "option1": "To declare variables",
+          "option2": "To control program flow",
+          "option3": "To execute program",
+          "option4": "To handle exceptions",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'typedef' and 'struct' in C?",
+          "option1": "Both are used to define structures",
+          "option2": "typedef is used to define structures, struct is used to declare variables",
+          "option3": "struct is used to define structures, typedef is used to declare variables",
+          "option4": "Both are used to declare variables",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the 'enum' in C?",
+          "option1": "To declare variables",
+          "option2": "To define structures",
+          "option3": "To control program flow",
+          "option4": "To define enumerations",
+          "answer": "option4"
+        },
+        {
+          "question": "Who is the creator of the C programming language?",
+          "option1": "Dennis Ritchie",
+          "option2": "Bjarne Stroustrup",
+          "option3": "Guido van Rossum",
+          "option4": "James Gosling",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'goto' statement in C?",
+          "option1": "To declare variables",
+          "option2": "To control program flow",
+          "option3": "To execute program",
+          "option4": "To handle exceptions",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the difference between 'const' and 'volatile' in C?",
+          "option1": "Both are used to modify variables",
+          "option2": "const is used to modify variables, volatile is used to declare variables",
+          "option3": "volatile is used to modify variables, const is used to declare variables",
+          "option4": "Both are used to declare variables",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of the 'static' keyword in C?",
+          "option1": "To declare variables",
+          "option2": "To define structures",
+          "option3": "To control program flow",
+          "option4": "To declare static variables",
+          "answer": "option4"
+        },
+        {
+          "question": "Who is the co-founder of Oracle?",
+          "option1": "Larry Ellison",
+          "option2": "Sergey Brin",
+          "option3": "Larry Page",
+          "option4": "Mark Zuckerberg",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'calloc' function in C?",
+          "option1": "To declare variables",
+          "option2": "To control program flow",
+          "option3": "To execute program",
+          "option4": "To dynamically allocate memory",
+          "answer": "option4"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T17:10:59.231762",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What does CPU stand for?",
+          "option1": "Central Processing Unit",
+          "option2": "Computer Processing Unit",
+          "option3": "Coding Processing Unit",
+          "option4": "Computer Power Unit",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the primary function of a compiler?",
+          "option1": "To execute a program",
+          "option2": "To translate a program into machine code",
+          "option3": "To run a program in the background",
+          "option4": "To create a new program",
+          "answer": "option2"
+        },
+        {
+          "question": "Which programming language is used for game development?",
+          "option1": "C",
+          "option2": "C++",
+          "option3": "Java",
+          "option4": "Python",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the process of solving a problem by breaking it down into smaller parts called?",
+          "option1": "Debugging",
+          "option2": "Debouncing",
+          "option3": "Decomposition",
+          "option4": "Divide and Conquer",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the purpose of a loop in programming?",
+          "option1": "To repeat a set of instructions",
+          "option2": "To skip a set of instructions",
+          "option3": "To execute a program",
+          "option4": "To terminate a program",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the difference between '==' and '===' in C programming?",
+          "option1": "Both are used for comparison",
+          "option2": "'==' is for equality and '===' is for strict equality",
+          "option3": "'==' is for strict equality and '===' is for equality",
+          "option4": "Both are used for assignment",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the use of the 'printf' function in C?",
+          "option1": "To input data",
+          "option2": "To output data",
+          "option3": "To read data from a file",
+          "option4": "To write data to a file",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of a variable in programming?",
+          "option1": "To store data",
+          "option2": "To execute a program",
+          "option3": "To create a new program",
+          "option4": "To debug a program",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the term for the process of finding and fixing errors in a program?",
+          "option1": "Debugging",
+          "option2": "Testing",
+          "option3": "Optimizing",
+          "option4": "Compiling",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the use of the 'malloc' function in C?",
+          "option1": "To input data",
+          "option2": "To output data",
+          "option3": "To allocate memory",
+          "option4": "To free memory",
+          "answer": "option3"
+        },
+        {
+          "question": "Who is the inventor of the C programming language?",
+          "option1": "Dennis Ritchie",
+          "option2": "Bjarne Stroustrup",
+          "option3": "Guido van Rossum",
+          "option4": "John Kemeny",
+          "answer": "option1"
+        },
+        {
+          "question": "What does the term 'algorithm' refer to?",
+          "option1": "A set of instructions",
+          "option2": "A programming language",
+          "option3": "A data structure",
+          "option4": "A software tool",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'main' function in C?",
+          "option1": "To input data",
+          "option2": "To output data",
+          "option3": "To execute a program",
+          "option4": "To terminate a program",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the term for a set of variables that are used to store data in a program?",
+          "option1": "Array",
+          "option2": "Data Structure",
+          "option3": "Scope",
+          "option4": "Block",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the founder of the programming language Python?",
+          "option1": "Guido van Rossum",
+          "option2": "Dennis Ritchie",
+          "option3": "Bjarne Stroustrup",
+          "option4": "John Kemeny",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'return' statement in C?",
+          "option1": "To skip a set of instructions",
+          "option2": "To repeat a set of instructions",
+          "option3": "To terminate a program",
+          "option4": "To return control to the calling function",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the term for a set of rules that define how a program should behave?",
+          "option1": "Algorithm",
+          "option2": "Flowchart",
+          "option3": "Pseudocode",
+          "option4": "Program Logic",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'if' statement in C?",
+          "option1": "To skip a set of instructions",
+          "option2": "To repeat a set of instructions",
+          "option3": "To execute a program",
+          "option4": "To check for a condition",
+          "answer": "option4"
+        },
+        {
+          "question": "What is the term for a block of code that is repeated multiple times in a program?",
+          "option1": "Loop",
+          "option2": "Conditional Statement",
+          "option3": "Function",
+          "option4": "Class",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'while' loop in C?",
+          "option1": "To repeat a set of instructions",
+          "option2": "To skip a set of instructions",
+          "option3": "To execute a program",
+          "option4": "To check for a condition",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the term for a variable that is used to store a value that can be changed?",
+          "option1": "Constant",
+          "option2": "Variable",
+          "option3": "Data Type",
+          "option4": "Type Cast",
+          "answer": "option2"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T17:11:14.863086",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What is the primary function of the CPU?",
+          "option1": "To store data",
+          "option2": "To process data",
+          "option3": "To display graphics",
+          "option4": "To connect to the internet",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the main programming language used for Android app development?",
+          "option1": "Java",
+          "option2": "C++",
+          "option3": "Python",
+          "option4": "JavaScript",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the inventor of the programming language C?",
+          "option1": "Dennis Ritchie",
+          "option2": "Bjarne Stroustrup",
+          "option3": "Guido van Rossum",
+          "option4": "Linus Torvalds",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the name of the popular C library for input/output operations?",
+          "option1": "stdio.h",
+          "option2": "stdlib.h",
+          "option3": "string.h",
+          "option4": "math.h",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'main' function in a C program?",
+          "option1": "To declare variables",
+          "option2": "To define functions",
+          "option3": "To control the program flow",
+          "option4": "To exit the program",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the difference between '==' and '!=' operators in C?",
+          "option1": "==' is used for equality, != is used for inequality",
+          "option2": "==' is used for inequality, != is used for equality",
+          "option3": "==' is used for assignment, != is used for comparison",
+          "option4": "==' is used for comparison, != is used for assignment",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the use of the 'printf' function in C?",
+          "option1": "To output a string",
+          "option2": "To input a string",
+          "option3": "To declare a variable",
+          "option4": "To define a function",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the author of the popular book 'The C Programming Language'?",
+          "option1": "Brian Kernighan",
+          "option2": "Dennis Ritchie",
+          "option3": "Bjarne Stroustrup",
+          "option4": "Andrew Koenig",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the name of the C library for string manipulation?",
+          "option1": "string.h",
+          "option2": "stdlib.h",
+          "option3": "stdio.h",
+          "option4": "math.h",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'rand' function in C?",
+          "option1": "To generate a random number",
+          "option2": "To generate a sequence of numbers",
+          "option3": "To get the current time",
+          "option4": "To get the system's memory",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the difference between 'int' and 'float' data types in C?",
+          "option1": "int is used for integer values, float is used for decimal values",
+          "option2": "int is used for decimal values, float is used for integer values",
+          "option3": "int is used for strings, float is used for numbers",
+          "option4": "float is used for strings, int is used for numbers",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the use of the 'while' loop in C?",
+          "option1": "To repeat a block of code",
+          "option2": "To skip a block of code",
+          "option3": "To exit the program",
+          "option4": "To declare a variable",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'break' statement in C?",
+          "option1": "To exit the loop",
+          "option2": "To skip the loop",
+          "option3": "To repeat the loop",
+          "option4": "To declare a variable",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the creator of the popular operating system Linux?",
+          "option1": "Linus Torvalds",
+          "option2": "Andrew Tanenbaum",
+          "option3": "Brian Kernighan",
+          "option4": "Dennis Ritchie",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the main function of the operating system?",
+          "option1": "To manage hardware resources",
+          "option2": "To provide a platform for running applications",
+          "option3": "To manage user accounts",
+          "option4": "To manage system files",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the purpose of the 'Ctrl+Alt+Del' key combination?",
+          "option1": "To shut down the system",
+          "option2": "To restart the system",
+          "option3": "To log in to the system",
+          "option4": "To log out of the system",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the name of the popular programming language used for web development?",
+          "option1": "JavaScript",
+          "option2": "Python",
+          "option3": "Java",
+          "option4": "C++",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the inventor of the World Wide Web?",
+          "option1": "Tim Berners-Lee",
+          "option2": "Linus Torvalds",
+          "option3": "Brian Kernighan",
+          "option4": "Dennis Ritchie",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the main function of the HTTP protocol?",
+          "option1": "To send data over the internet",
+          "option2": "To receive data over the internet",
+          "option3": "To manage web servers",
+          "option4": "To manage web browsers",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the purpose of the 'cookie' in web development?",
+          "option1": "To store user data",
+          "option2": "To track user activity",
+          "option3": "To manage user sessions",
+          "option4": "To manage user authentication",
+          "answer": "option3"
+        },
+        {
+          "question": "What is the name of the popular database management system?",
+          "option1": "MySQL",
+          "option2": "MongoDB",
+          "option3": "PostgreSQL",
+          "option4": "SQLite",
+          "answer": "option1"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2024-11-17T17:11:30.363679",
+    "mcq_questions": {
+      "questions": [
+        {
+          "question": "What is the term for a set of instructions that a computer can understand?",
+          "option1": "Algorithm",
+          "option2": "Program",
+          "option3": "Code",
+          "option4": "Software",
+          "answer": "option1"
+        },
+        {
+          "question": "Which programming language is used for Android app development?",
+          "option1": "Java",
+          "option2": "Python",
+          "option3": "C++",
+          "option4": "JavaScript",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the term for data that is stored on a computer's hard drive?",
+          "option1": "Memory",
+          "option2": "RAM",
+          "option3": "HDD",
+          "option4": "SSD",
+          "answer": "option3"
+        },
+        {
+          "question": "Who is the founder of Google?",
+          "option1": "Larry Page",
+          "option2": "Sergey Brin",
+          "option3": "Elon Musk",
+          "option4": "Bill Gates",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the term for a small program that is designed to perform a specific task?",
+          "option1": "App",
+          "option2": "Software",
+          "option3": "Plugin",
+          "option4": "Widget",
+          "answer": "option1"
+        },
+        {
+          "question": "Which programming language is used for web development?",
+          "option1": "Python",
+          "option2": "JavaScript",
+          "option3": "HTML",
+          "option4": "CSS",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the term for a user's input in a computer program?",
+          "option1": "Output",
+          "option2": "Input",
+          "option3": "Algorithm",
+          "option4": "Syntax",
+          "answer": "option2"
+        },
+        {
+          "question": "Who is the founder of Tesla?",
+          "option1": "Elon Musk",
+          "option2": "Steve Jobs",
+          "option3": "Bill Gates",
+          "option4": "Mark Zuckerberg",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the term for a computer's main processing unit?",
+          "option1": "CPU",
+          "option2": "GPU",
+          "option3": "RAM",
+          "option4": "Motherboard",
+          "answer": "option1"
+        },
+        {
+          "question": "Which programming language is used for game development?",
+          "option1": "Python",
+          "option2": "C++",
+          "option3": "Java",
+          "option4": "JavaScript",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the term for a computer's storage device?",
+          "option1": "HDD",
+          "option2": "SSD",
+          "option3": "RAM",
+          "option4": "GPU",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the author of the book 'Code Complete'?",
+          "option1": "Steve McConnell",
+          "option2": "Bjarne Stroustrup",
+          "option3": "Dennis Ritchie",
+          "option4": "Brian Kernighan",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the term for a set of rules that govern programming language syntax?",
+          "option1": "Syntax",
+          "option2": "Semantics",
+          "option3": "Context",
+          "option4": "Lexical",
+          "answer": "option1"
+        },
+        {
+          "question": "Which C library is used for input/output operations?",
+          "option1": "stdio.h",
+          "option2": "stdlib.h",
+          "option3": "string.h",
+          "option4": "math.h",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the term for a computer's ability to perform calculations?",
+          "option1": "Processing",
+          "option2": "Memory",
+          "option3": "Storage",
+          "option4": "Computation",
+          "answer": "option4"
+        },
+        {
+          "question": "Who is the inventor of the C programming language?",
+          "option1": "Dennis Ritchie",
+          "option2": "Bjarne Stroustrup",
+          "option3": "Brian Kernighan",
+          "option4": "Alan Kay",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the term for a computer's ability to store and retrieve data?",
+          "option1": "Memory",
+          "option2": "Storage",
+          "option3": "Processing",
+          "option4": "Computation",
+          "answer": "option2"
+        },
+        {
+          "question": "Which C function is used to convert a character to uppercase?",
+          "option1": "tolower()",
+          "option2": "toupper()",
+          "option3": "strcmp()",
+          "option4": "memcpy()",
+          "answer": "option2"
+        },
+        {
+          "question": "What is the term for a set of instructions that a computer follows to perform a task?",
+          "option1": "Program",
+          "option2": "Code",
+          "option3": "Script",
+          "option4": "Algorithm",
+          "answer": "option4"
+        },
+        {
+          "question": "Which C library is used for mathematical operations?",
+          "option1": "math.h",
+          "option2": "stdio.h",
+          "option3": "stdlib.h",
+          "option4": "string.h",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the term for a computer's ability to communicate with other devices?",
+          "option1": "Networking",
+          "option2": "Storage",
+          "option3": "Processing",
+          "option4": "Computation",
+          "answer": "option1"
+        },
+        {
+          "question": "Who is the founder of the C++ programming language?",
+          "option1": "Bjarne Stroustrup",
+          "option2": "Dennis Ritchie",
+          "option3": "Brian Kernighan",
+          "option4": "Alan Kay",
+          "answer": "option1"
+        },
+        {
+          "question": "What is the term for a set of rules that govern programming language meaning?",
+          "option1": "Syntax",
+          "option2": "Semantics",
+          "option3": "Context",
+          "option4": "Lexical",
+          "answer": "option2"
+        }
+      ]
+    }
+  }
+]
